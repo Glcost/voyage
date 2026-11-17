@@ -4,11 +4,12 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#14243D">
 <meta name="description" content="VOYAGE FOR MEN. Fragrâncias masculinas premium inspiradas em destinos e criadas para expressar sua identidade. Every fragrance has a destination.">
 <title>VOYAGE FOR MEN — Every fragrance has a destination</title>
+<script>document.documentElement.classList.add('js-loading');setTimeout(function(){document.documentElement.classList.remove('js-loading')},4000);</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 :root{--navy:#14243D;--deep:#091728;--gold:#B08A50;--sand:#D8C7A7;--ivory:#F4EFE4;--ink:#16243a;--muted:#6b7481;--white:#fff;--line:rgba(20,36,61,.16)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}img{max-width:100%;display:block}button,input,select{font:inherit}a{text-decoration:none;color:inherit}button{cursor:pointer}.wrap{max-width:1180px;padding:0 28px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.23em;font-size:11px;font-weight:700;color:var(--gold)}.kicker{font-size:12px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}.heading{font-family:'Playfair Display',Georgia,serif;font-size:clamp(33px,4vw,57px);font-weight:500;line-height:1.14;margin:15px 0 20px;letter-spacing:-.025em}.heading em{font-weight:400;color:var(--gold)}p{line-height:1.75}.lead{font-size:16px;line-height:1.8;color:#5d6570;max-width:560px}.btn{display:inline-flex;gap:14px;align-items:center;justify-content:center;border:1px solid var(--gold);padding:16px 24px;background:var(--gold);color:#fff;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;min-height:52px;transition:all .2s}.btn:hover{background:#9b7540;transform:translateY(-1px)}.btn.outline{background:transparent;border-color:rgba(244,239,228,.55);color:var(--ivory)}.btn.outline:hover{background:rgba(255,255,255,.1)}.btn.dark{background:var(--navy);border-color:var(--navy)}.btn.dark:hover{background:#233c62}.section{padding:112px 0}.divider{height:1px;background:var(--line)}
-header{position:absolute;inset:0 0 auto;z-index:20;height:82px;color:var(--ivory);border-bottom:1px solid rgba(255,255,255,.15)}.head-inner{max-width:1340px;margin:auto;height:100%;display:flex;align-items:center;justify-content:space-between;padding:0 34px;gap:20px}.wordmark{font:600 22px 'Playfair Display',serif;letter-spacing:.15em}.wordmark small{display:block;text-align:center;letter-spacing:.45em;font:500 8px 'DM Sans',sans-serif;margin-top:4px}.nav{display:flex;align-items:center;gap:32px}.nav a{font-size:11px;letter-spacing:.12em;text-transform:uppercase}.nav a:hover{color:#ddc39a}.nav .navcta{border:1px solid rgba(244,239,228,.65);padding:12px 18px}.mobile-menu{display:none;background:none;color:white;border:1px solid #ffffff70;padding:8px 12px}
+header{position:fixed;inset:0 0 auto;z-index:40;height:82px;color:var(--ivory);border-bottom:1px solid rgba(255,255,255,.15);transition:background .4s,height .4s,border-color .4s,transform .55s cubic-bezier(.2,.7,.2,1)}header.scrolled{background:rgba(9,23,40,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);height:68px;border-color:rgba(216,199,167,.18)}header.hide{transform:translateY(-100%)}.head-inner{max-width:1340px;margin:auto;height:100%;display:flex;align-items:center;justify-content:space-between;padding:0 34px;gap:20px}.wordmark{font:600 22px 'Playfair Display',serif;letter-spacing:.15em}.wordmark small{display:block;text-align:center;letter-spacing:.45em;font:500 8px 'DM Sans',sans-serif;margin-top:4px}.nav{display:flex;align-items:center;gap:32px}.nav a{font-size:11px;letter-spacing:.12em;text-transform:uppercase}.nav a:hover{color:#ddc39a}.nav .navcta{border:1px solid rgba(244,239,228,.65);padding:12px 18px}.mobile-menu{display:none;background:none;color:white;border:1px solid #ffffff70;padding:8px 12px}
 .hero{background:var(--navy);min-height:730px;color:var(--ivory);position:relative;overflow:hidden}.hero:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 78% 53%,#40516c60,transparent 35%),linear-gradient(110deg,#0b182b 2%,#14243d 68%,#25334a);}.hero-grid{max-width:1340px;min-height:730px;margin:auto;display:grid;grid-template-columns:1.06fr .94fr;align-items:center;position:relative;padding:110px 55px 55px;gap:25px}.hero-copy{z-index:1}.hero .eyebrow{color:#cfb48c}.hero h1{font:500 clamp(44px,5.1vw,77px)/1.13 'Playfair Display',serif;letter-spacing:-.045em;margin:24px 0}.hero h1 em{color:#d7b985;font-weight:400}.hero p{max-width:500px;line-height:1.8;color:#d5d9df;font-size:16px;margin-bottom:31px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap}.micro{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#c0ad92;margin-top:36px}.hero-visual{height:580px;display:flex;align-items:center;justify-content:center;position:relative}.hero-visual:before{content:'';position:absolute;width:min(450px,80%);aspect-ratio:1;border:1px solid #af8c574b;border-radius:50%}.hero-visual:after{content:'';position:absolute;left:7%;right:7%;bottom:37px;height:1px;background:linear-gradient(90deg,transparent,#b08a506b,transparent)}.hero-bottle{position:relative;width:min(420px,88%);height:520px;object-fit:cover;object-position:50% 52%;border-radius:220px 220px 8px 8px;mask-image:linear-gradient(to bottom,#000 88%,transparent 100%);box-shadow:0 25px 100px #0005}.hero-stamp{position:absolute;right:-6px;top:25px;width:120px;opacity:.9;border:1px solid #ffffff15;border-radius:50%}.vertical-text{position:absolute;right:-8px;bottom:110px;writing-mode:vertical-rl;letter-spacing:.3em;font-size:10px;color:#cfb48c}
 /* Hero editorial: modelo real de referência + assinatura do frasco VOYAGE */
 .hero-grid{grid-template-columns:1.02fr .98fr;gap:48px}
@@ -24,7 +25,7 @@ header{position:absolute;inset:0 0 auto;z-index:20;height:82px;color:var(--ivory
 @media(max-width:900px){.hero-grid{gap:22px}.hero-visual{height:530px;max-width:540px;width:100%;margin:auto}.hero-product-card{right:9px;bottom:27px;width:145px;height:180px}.hero-stamp{left:8px}}
 @media(max-width:520px){.hero-visual{height:420px;max-width:100%}.hero-model{object-position:50% 16%}.hero-product-card{right:8px;bottom:32px;width:113px;height:145px}.hero-stamp{left:10px;top:12px;width:71px}.hero-photo-caption{font-size:8px;bottom:12px;left:12px}}
 .crumb{display:flex;justify-content:center;gap:38px;flex-wrap:wrap;padding:25px;background:#ede6d9;color:#5b6170;font-size:11px;letter-spacing:.14em;text-transform:uppercase}.crumb b{color:var(--gold)}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}.problem{background:#f8f5ee}.quote-box{border-left:3px solid var(--gold);padding:32px 40px;background:#efe7da;box-shadow:16px 16px 0 #e4d8c5}.quote-box blockquote{font:400 clamp(24px,3vw,38px)/1.4 'Playfair Display',serif;margin:0}.quote-box span{display:block;margin-top:22px;font-size:12px;color:#6c6d6d}.problem-list{display:grid;gap:18px;margin-top:24px}.problem-list div{padding:0 0 17px;border-bottom:1px solid var(--line);font-size:15px;line-height:1.6}.problem-list strong{color:var(--gold);margin-right:12px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}.problem{background:#f8f5ee}.quote-box{border-left:3px solid var(--gold);padding:32px 40px;background:#efe7da;box-shadow:16px 16px 0 #e4d8c5}.quote-box blockquote{font:400 clamp(24px,3vw,38px)/1.4 'Playfair Display',serif;margin:0}.quote-box>span{display:block;margin-top:22px;font-size:12px;color:#6c6d6d}.problem-list{display:grid;gap:18px;margin-top:24px}.problem-list div{padding:0 0 17px;border-bottom:1px solid var(--line);font-size:15px;line-height:1.6}.problem-list strong{color:var(--gold);margin-right:12px}
 .solution{background:var(--ivory)}.solution-top{text-align:center;max-width:700px;margin:0 auto 48px}.solution-top .lead{margin:auto}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{background:white;padding:33px;min-height:240px;border:1px solid #e9e1d4}.step span{font:500 34px 'Playfair Display',serif;color:var(--gold)}.step h3{font:500 23px 'Playfair Display',serif;margin:24px 0 10px}.step p{font-size:13px;color:#676c75;margin:0}.custom{margin-top:30px;background:var(--navy);color:var(--ivory);padding:34px 40px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:25px}.custom h3{font:500 26px 'Playfair Display',serif;margin:0 0 10px}.custom p{font-size:13px;color:#ccd2dc;margin:0}.custom .control{display:flex;gap:12px;flex-wrap:wrap}.custom select{flex:1;min-width:145px;border:1px solid #ab916c;padding:13px 12px;background:#203654;color:white}.sample{font-family:'Playfair Display',serif;color:#f0d2a5;letter-spacing:.08em;margin-top:15px!important;font-size:19px!important}
 .benefits{background:#eee7dc}.benefit-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:21px;margin-top:44px}.benefit{border-top:1px solid var(--gold);padding:30px 10px 10px}.benefit .symbol{font-size:34px;color:var(--gold);font-family:Georgia}.benefit h3{font:500 24px 'Playfair Display',serif;margin:24px 0 10px}.benefit p{font-size:14px;color:#626772}
 .editorial{height:400px;position:relative;overflow:hidden;background:var(--deep)}.editorial img{width:100%;height:100%;object-fit:cover;object-position:center 53%;filter:brightness(.65)}.editorial .overlay{position:absolute;inset:0;background:linear-gradient(90deg,#0c1b30d9 0%,transparent 75%);display:flex;align-items:center}.editorial h2{font:400 clamp(34px,4.5vw,59px)/1.18 'Playfair Display',serif;color:var(--ivory);max-width:550px}.editorial h2 em{color:#dfc6a0}
@@ -33,31 +34,952 @@ header{position:absolute;inset:0 0 auto;z-index:20;height:82px;color:var(--ivory
 .faq{background:#f8f5ee}.faq-grid{display:grid;grid-template-columns:.65fr 1.35fr;gap:60px}.faq details{border-bottom:1px solid #d9cfbe;padding:22px 4px}.faq summary{cursor:pointer;list-style:none;font-weight:600;display:flex;align-items:center;justify-content:space-between;gap:15px}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:'+';font-size:24px;color:var(--gold);font-weight:400}.faq details[open] summary:after{content:'−'}.faq details p{font-size:14px;color:#666f77;margin:14px 30px 0 0}
 .finalcta{background:#0c192d;padding:97px 0;text-align:center;color:var(--ivory)}.finalcta .heading{max-width:790px;margin:18px auto 30px}.finalcta p{color:#bfc8d3}.finalcta .btn{margin-top:12px}
 footer{background:#071323;color:#a9b5c4;padding:50px 0 25px}footer .footer-grid{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap}footer .wordmark{color:var(--ivory)}footer p,footer a{font-size:12px;color:#a9b5c4}footer a:hover{color:#fff}.footer-links{display:flex;flex-wrap:wrap;gap:22px;align-items:center}.legal{margin-top:35px;padding-top:17px;border-top:1px solid #ffffff29;font-size:11px;line-height:1.7}.legal-modal{position:fixed;inset:0;background:#06101ed9;z-index:60;display:none;align-items:center;justify-content:center;padding:20px}.legal-modal.open{display:flex}.legal-dialog{background:#fff;color:var(--navy);padding:35px;max-width:580px;width:100%;max-height:80vh;overflow:auto;position:relative}.close{position:absolute;top:10px;right:15px;border:0;background:transparent;font-size:26px}.legal-dialog h2{font:500 29px 'Playfair Display',serif}.legal-dialog p{font-size:14px;color:#5c6671}
-@media(max-width:900px){.nav{display:none;position:absolute;top:82px;left:0;right:0;background:#0c192d;padding:20px 26px;flex-direction:column;align-items:stretch}.nav.open{display:flex}.mobile-menu{display:block}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:145px 28px 45px}.hero-visual{height:460px}.hero-bottle{height:420px;width:320px}.hero-stamp{right:2%;width:90px}.two-col,.creds,.faq-grid,.social-box{grid-template-columns:1fr;gap:35px}.steps,.benefit-cards{grid-template-columns:1fr}.custom{grid-template-columns:1fr}.section{padding:78px 0}.editorial{height:320px}}
+@media(max-width:900px){.nav{display:none;position:absolute;top:100%;left:0;right:0;background:#0c192d;padding:20px 26px;flex-direction:column;align-items:stretch}.nav.open{display:flex}.mobile-menu{display:block}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:145px 28px 45px}.hero-visual{height:460px}.hero-bottle{height:420px;width:320px}.hero-stamp{right:2%;width:90px}.two-col,.creds,.faq-grid,.social-box{grid-template-columns:1fr;gap:35px}.steps,.benefit-cards{grid-template-columns:1fr}.custom{grid-template-columns:1fr}.section{padding:78px 0}.editorial{height:320px}}
+/* ===== Motion / interatividade (GSAP) ===== */
+.js-loading .head-inner>*,.js-loading .hero-copy>*,.js-loading .hero-visual,.js-loading .crumb span{opacity:0}
+.step>span{display:inline-block}
+section[id]{scroll-margin-top:64px}
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding:0 .06em .14em;margin:0 -.06em -.14em}.wi{display:inline-block;will-change:transform}
+.scroll-progress{position:fixed;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),#e6c48f);transform-origin:left;transform:scaleX(0);z-index:45;pointer-events:none}
+.nav a:not(.navcta){position:relative}.nav a:not(.navcta):after{content:'';position:absolute;left:0;right:0;bottom:-7px;height:1px;background:#ddc39a;transform:scaleX(0);transform-origin:left;transition:transform .35s}.nav a.active{color:#ddc39a}.nav a.active:after,.nav a:not(.navcta):hover:after{transform:scaleX(1)}
+.cursor,.cursor-dot{position:fixed;left:0;top:0;pointer-events:none;z-index:100;border-radius:50%;opacity:0;visibility:hidden}.cursor{width:34px;height:34px;margin:-17px 0 0 -17px;border:1px solid rgba(176,138,80,.85)}.cursor-dot{width:5px;height:5px;margin:-2.5px 0 0 -2.5px;background:var(--gold)}
+.step{background:radial-gradient(circle at var(--gx,50%) var(--gy,0%),rgba(176,138,80,.11),transparent 48%),#fff;transition:border-color .3s;will-change:transform}.step:hover{border-color:#d8c3a0}
+.benefit{position:relative}.bline{position:absolute;top:-1px;left:0;right:0;height:1px;background:var(--gold)}
+.faq details p{overflow:hidden}
+.editorial .window-label{display:none}
+.editorial.cinema{height:100vh;min-height:620px}.editorial.cinema img{will-change:clip-path,transform}
+.editorial.cinema .window-label{display:block;position:absolute;top:6%;left:50%;transform:translateX(-50%);z-index:2;color:#d8c7a7;font-size:10px;letter-spacing:.32em;white-space:nowrap}
+.finalcta{position:relative;overflow:hidden;background:radial-gradient(620px circle at var(--mx,50%) var(--my,40%),rgba(176,138,80,.2),transparent 62%),#0c192d}.finalcta .wrap{position:relative;z-index:1}.final-stamp{position:absolute;right:-70px;top:50%;width:280px;margin-top:-140px;opacity:.07;border-radius:50%;pointer-events:none}
+#offerSign{min-height:1.5em}
+/* ===== Atlas olfativo (mapa) ===== */
+.atlas{background:radial-gradient(120% 70% at 50% 0%,#1d3253 0%,var(--navy) 45%,var(--deep) 100%);color:var(--ivory);position:relative;overflow:hidden}.atlas .wrap{max-width:1340px}.atlas .lead{color:#c5ced8}
+.atlas-head{display:grid;grid-template-columns:1.25fr .75fr;gap:50px;align-items:end;margin-bottom:34px}.atlas-head .heading{margin-bottom:16px}
+.atlas-stats{display:flex;gap:30px;justify-content:flex-end}.atlas-stats div{border-left:1px solid rgba(216,199,167,.3);padding-left:16px}.atlas-stats b{display:block;font:500 42px/1 'Playfair Display',serif;color:#e6cfa6;margin-bottom:8px}.atlas-stats span{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#aab4c2}
+.atlas-bar{display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(216,199,167,.18);margin-bottom:18px}
+.atlas-tabs{position:relative;display:flex;overflow-x:auto;scrollbar-width:none;min-width:0}.atlas-tabs::-webkit-scrollbar{display:none}
+.atlas-tab{background:none;border:0;color:#9fabbb;font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;padding:17px 15px;white-space:nowrap;transition:color .25s}.atlas-tab:hover,.atlas-tab.active{color:var(--ivory)}.atlas-tab small{color:var(--gold);margin-left:7px;font-size:10px}
+.tab-ind{position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--gold)}
+.surprise{flex:none;background:transparent;border:1px solid rgba(216,199,167,.45);color:#e6cfa6;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:12px 17px;display:inline-flex;gap:10px;align-items:center;transition:background .25s}.surprise:hover{background:rgba(176,138,80,.16)}
+.atlas-map{position:relative;aspect-ratio:1000/430;border:1px solid rgba(216,199,167,.16);background:radial-gradient(circle at var(--sx,50%) var(--sy,50%),rgba(176,138,80,.14),transparent 30%),linear-gradient(180deg,rgba(255,255,255,.02),rgba(0,0,0,.14));overflow:hidden}
+.atlas-map svg{position:absolute;inset:0;width:100%;height:100%;display:block;-webkit-user-select:none;user-select:none}
+.atlas-grat line{stroke:rgba(216,199,167,.09);stroke-width:1;vector-effect:non-scaling-stroke}.atlas-grat line.eq{stroke:rgba(216,199,167,.24);stroke-dasharray:3 6}
+.atlas-land path{fill:rgba(216,199,167,.48)}
+.pin{cursor:pointer;outline:none}.pin-hit{fill:transparent}
+.pin-core{fill:var(--gold);stroke:var(--ivory);stroke-width:1.6}.pin-ring{fill:none;stroke:rgba(230,196,143,.55);stroke-width:1}
+.pin-pulse{fill:none;stroke:#d9b27a;stroke-width:1;opacity:0;transform-box:fill-box;transform-origin:center}.atlas-svg.live .pin-pulse{animation:pinPulse 3s ease-out infinite}
+.pin:nth-child(3n+1) .pin-pulse{animation-delay:.9s!important}.pin:nth-child(3n+2) .pin-pulse{animation-delay:1.8s!important}
+@keyframes pinPulse{0%{transform:scale(.7);opacity:.9}100%{transform:scale(3.4);opacity:0}}
+.pin-label{fill:var(--ivory);font:700 10.5px 'DM Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;paint-order:stroke;stroke:#091728;stroke-width:3.5px;stroke-linejoin:round;opacity:0;transition:opacity .3s;pointer-events:none}
+.atlas-svg.zoomed .pin-label{opacity:.82}.pin:hover .pin-label,.pin:focus-visible .pin-label,.pin.active .pin-label{opacity:1}
+.pin.active .pin-core{fill:var(--ivory);stroke:var(--gold);stroke-width:2.6}.pin.active .pin-ring{stroke:#f0d6b0;stroke-width:1.6}.pin:focus-visible .pin-ring{stroke:#fff;stroke-width:2}
+.pin{transition:opacity .45s}.pin.dim:not(.active){opacity:.16;pointer-events:none}
+.pin-ripple{fill:none;stroke:#f0d6b0;stroke-width:1.5}
+.route{fill:none;stroke:#e6c48f;stroke-linecap:round}.route-glow{fill:none;stroke:rgba(230,196,143,.16);stroke-linecap:round}
+.plane path{fill:var(--ivory)}.plane{filter:drop-shadow(0 0 5px rgba(240,214,176,.75))}
+.atlas-tip{position:absolute;left:0;top:0;z-index:3;pointer-events:none;background:var(--ivory);color:var(--navy);padding:9px 13px 10px;white-space:nowrap;transform:translate(-50%,calc(-100% - 14px));opacity:0;visibility:hidden;box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.atlas-tip.below{transform:translate(-50%,22px)}.atlas-tip span{display:block;color:var(--gold);letter-spacing:.16em;text-transform:uppercase;font-size:9px;font-weight:700}.atlas-tip b{display:block;font:500 16px 'Playfair Display',serif;margin-top:2px}
+.map-corner,.map-hint{position:absolute;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:#7f8ba0;pointer-events:none}.map-corner.tl{top:12px;left:14px;transition:opacity .4s}.atlas-map.is-zoomed .map-corner.tl{opacity:0}.map-corner.br{right:14px;bottom:12px;color:#b9a27e}.map-hint{left:14px;bottom:12px}
+.atlas-map.no-land .map-hint:after{content:' · Mapa simplificado (offline)'}
+.atlas-rail{display:flex;gap:8px;overflow-x:auto;padding:16px 0 6px;scrollbar-width:thin;scrollbar-color:#b08a50 transparent}
+.chip{flex:none;background:rgba(255,255,255,.04);border:1px solid rgba(216,199,167,.22);color:#d5d9df;padding:10px 14px;font-size:12px;display:inline-flex;gap:9px;align-items:center;transition:background .25s,border-color .25s,color .25s}.chip i{width:6px;height:6px;border-radius:50%;background:var(--gold);transition:background .25s}.chip:hover{border-color:var(--gold);color:#fff}.chip.active{background:var(--gold);border-color:var(--gold);color:#fff}.chip.active i{background:#fff}
+.atlas-panel{margin-top:26px;background:#f8f4eb;color:var(--navy);box-shadow:16px 16px 0 #9e7948;position:relative;overflow:hidden}
+.panel-accent{position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--a1,#b08a50),var(--a2,#d8c7a7),var(--a3,#14243d));transform-origin:left}
+.panel-empty{padding:44px 48px;display:grid;grid-template-columns:auto 1fr auto;gap:34px;align-items:center}.panel-stamp{width:96px;height:96px;border-radius:50%;object-fit:cover;box-shadow:0 8px 26px rgba(20,36,61,.22)}.panel-empty h3{font:500 30px 'Playfair Display',serif;margin:0 0 8px}.panel-empty p{margin:0;color:#65707a;font-size:14px;max-width:560px}
+.panel-body{display:none;grid-template-columns:1.2fr 1fr 1fr}.atlas-panel.has-dest .panel-empty{display:none}.atlas-panel.has-dest .panel-body{display:grid}
+.p-col{padding:40px 36px}.p-col+.p-col{border-left:1px solid #e3d8c7}
+.p-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.p-nav{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.14em;color:#8a8f98;flex:none}.p-nav button{width:36px;height:36px;border:1px solid #d6c8b2;background:#fff;color:var(--navy);display:grid;place-items:center;transition:background .2s,color .2s,border-color .2s}.p-nav button:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.p-city{font:500 clamp(36px,4vw,54px)/1.05 'Playfair Display',serif;margin:18px 0 10px;letter-spacing:-.02em;min-height:1.05em}
+.p-meta{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7a808a}
+.p-vibe{font-size:15px;line-height:1.8;color:#4e5764;margin:20px 0 22px}
+.p-moods{display:flex;flex-wrap:wrap;gap:8px}.p-moods span{border:1px solid var(--gold);color:#8a6a3b;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:7px 11px}
+.p-label{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;display:block}
+.meter{margin-bottom:17px}.meter-top{display:flex;justify-content:space-between;font-size:13px;margin-bottom:8px;color:#4e5764}.meter-top b{font-weight:700;color:var(--navy)}.meter-track{height:3px;background:#e6dccb;overflow:hidden}.meter-fill{height:100%;background:linear-gradient(90deg,var(--gold),#dcbc85);transform-origin:left;transform:scaleX(var(--v,0))}
+.notes{display:grid}.note{display:grid;grid-template-columns:78px 1fr;gap:12px;padding:12px 0;border-top:1px solid #e6dccb;font-size:14px;line-height:1.5}.note small{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#8a8f98;padding-top:3px}
+.p-details{margin:0;display:grid;gap:15px}.p-details div{display:grid;gap:3px}.p-details dt{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#8a8f98}.p-details dd{margin:0;font-size:14px;color:var(--navy);line-height:1.5}
+.p-palette{display:flex;gap:10px;margin:24px 0 20px}.p-palette span{width:32px;height:32px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #d6c8b2}
+.p-sign{font:400 21px 'Playfair Display',serif;color:var(--gold);letter-spacing:.06em;margin:0 0 14px}.p-cta .btn{width:100%}
+@media(max-width:1100px){.panel-body{grid-template-columns:1fr 1fr}.p-col:first-child{grid-column:1/-1}.p-col:nth-child(2){border-left:0;border-top:1px solid #e3d8c7}.p-col:nth-child(3){border-top:1px solid #e3d8c7}}
+@media(max-width:900px){.atlas-head{grid-template-columns:1fr;gap:26px}.atlas-stats{justify-content:flex-start}.panel-empty{grid-template-columns:1fr;padding:32px;gap:20px}.final-stamp{width:180px;margin-top:-90px;right:-50px}}
+@media(max-width:700px){.atlas-map{aspect-ratio:16/11}.panel-body{grid-template-columns:1fr}.p-col{padding:28px 24px}.p-col+.p-col{border-left:0;border-top:1px solid #e3d8c7}.atlas-panel{box-shadow:8px 8px 0 #9e7948}.atlas-stats b{font-size:34px}.map-corner{display:none}}
 @media(max-width:520px){.wrap{padding:0 20px}.head-inner{padding:0 20px}.hero-grid{padding-left:20px;padding-right:20px}.hero h1{font-size:42px}.hero-visual{height:355px}.hero-bottle{height:340px;width:260px}.hero-stamp{width:70px;top:7px}.vertical-text{display:none}.crumb{gap:12px;font-size:9px}.custom,.formcard,.social-box,.cred-box{padding:23px}.quote-box{padding:25px}.formcard{box-shadow:8px 8px 0 #9e7948}.heading{font-size:34px}}
 </style>
 </head>
 <body>
-<header><div class="head-inner"><a class="wordmark" href="#inicio" aria-label="VOYAGE FOR MEN — início">VOYAGE<small>FOR MEN</small></a><button class="mobile-menu" id="menubtn" aria-expanded="false" aria-controls="nav">Menu ☰</button><nav class="nav" id="nav" aria-label="Navegação principal"><a href="#conceito">O conceito</a><a href="#experiencia">A experiência</a><a href="#beneficios">Benefícios</a><a href="#duvidas">Dúvidas</a><a class="navcta" href="#oferta">Criar minha jornada</a></nav></div></header>
+<div class="scroll-progress" aria-hidden="true"></div>
+<header><div class="head-inner"><a class="wordmark" href="#inicio" aria-label="VOYAGE FOR MEN — início">VOYAGE<small>FOR MEN</small></a><button class="mobile-menu" id="menubtn" aria-expanded="false" aria-controls="nav">Menu ☰</button><nav class="nav" id="nav" aria-label="Navegação principal"><a href="#conceito">O conceito</a><a href="#experiencia">A experiência</a><a href="#beneficios">Benefícios</a><a href="#atlas">Atlas</a><a href="#duvidas">Dúvidas</a><a class="navcta" href="#oferta">Criar minha jornada</a></nav></div></header>
 <main>
 <section class="hero" id="inicio"><div class="hero-grid"><div class="hero-copy"><span class="eyebrow">PERFUMARIA MASCULINA PREMIUM · DESTINOS EXCLUSIVOS</span><h1>Seu estilo.<br>Sua história.<br><em>Seu destino.</em></h1><p>Para homens que não querem usar apenas mais uma fragrância. Crie um perfume inspirado em uma cidade e nas notas que traduzem quem você é.</p><div class="hero-actions"><a href="#oferta" class="btn">Comece sua jornada <span>↗</span></a><a href="#experiencia" class="btn outline">Como funciona <span>↓</span></a></div><div class="micro">EVERY FRAGRANCE HAS A DESTINATION.</div></div><div class="hero-visual"><img class="hero-model" src="assets/modelo-hero.webp" alt="Homem elegante de terno azul-marinho segurando um perfume, campanha masculina VOYAGE FOR MEN" fetchpriority="high"><div class="hero-product-card"><img src="assets/frasco-oficial.webp" alt="Frasco oficial VOYAGE FOR MEN, azul-marinho, tampa dourada e carimbos de passaporte"></div><img class="hero-stamp" src="assets/selo.webp" alt="Selo circular VOYAGE com avião vintage"><span class="hero-photo-caption">THE ART OF ARRIVAL</span><span class="vertical-text">NEW YORK · PARIS · TOKYO · MILANO</span></div></div></section>
 <div class="crumb"><span>01 <b>·</b> Uma história</span><span>02 <b>·</b> Um destino</span><span>03 <b>·</b> Sua assinatura</span></div>
 <section class="section problem" id="conceito"><div class="wrap two-col"><div><span class="eyebrow">01 / O QUE FALTA NO COMUM</span><h2 class="heading">Sua fragrância deveria dizer <em>mais sobre você.</em></h2><p class="lead">Muitos perfumes oferecem personalidade pronta. Mas suas lembranças, preferências e destinos não são iguais aos de ninguém.</p><div class="problem-list"><div><strong>01</strong> Usar a mesma fragrância que todos ao seu redor.</div><div><strong>02</strong> Não se reconhecer nas opções de catálogo.</div><div><strong>03</strong> Querer presentear com algo que realmente tenha significado.</div></div></div><div class="quote-box"><div class="eyebrow">NOSSA FILOSOFIA</div><blockquote>“Um perfume pode ser mais que um aroma. Pode ser o lugar onde uma memória começa.”</blockquote><span>VOYAGE FOR MEN · ESSÊNCIA & IDENTIDADE</span></div></div></section>
 <section class="section solution" id="experiencia"><div class="wrap"><div class="solution-top"><span class="eyebrow">02 / A EXPERIÊNCIA VOYAGE</span><h2 class="heading">Não escolha apenas um perfume.<br><em>Crie o seu.</em></h2><p class="lead">A proposta VOYAGE une destinos, composição olfativa e personalização para criar uma fragrância que leva a sua assinatura.</p></div><div class="steps"><div class="step"><span>01</span><h3>Escolha um destino</h3><p>Paris, Nova York, Tóquio ou a cidade que mais representa a sua história.</p></div><div class="step"><span>02</span><h3>Defina sua essência</h3><p>Explore famílias olfativas e selecione as notas que combinam com seu estilo.</p></div><div class="step"><span>03</span><h3>Assine a sua criação</h3><p>Seu frasco recebe a identidade <em>CIDADE by SEU NOME</em>, com o universo visual de uma viagem.</p></div></div><div class="custom"><div><h3>Imagine sua próxima fragrância.</h3><p>Uma prévia ilustrativa do conceito de personalização.</p><p class="sample" id="previewname">PARIS by VOCÊ</p></div><div class="control"><select id="city" aria-label="Escolha uma cidade"><option>PARIS</option><option>NEW YORK</option><option>TOKYO</option><option>MILANO</option><option>DUBAI</option></select><select id="notes" aria-label="Escolha a família olfativa"><option>Cítrica</option><option>Amadeirada</option><option>Ambarada</option><option>Aquática</option></select></div></div></div></section>
 <section class="section benefits" id="beneficios"><div class="wrap"><span class="eyebrow">03 / O QUE VOCÊ LEVA</span><h2 class="heading">Mais que uma fragrância.<br><em>Uma experiência pessoal.</em></h2><div class="benefit-cards"><div class="benefit"><div class="symbol">✦</div><h3>Identidade</h3><p>Uma composição que conversa com suas preferências — em vez de apenas seguir tendências.</p></div><div class="benefit"><div class="symbol">↗</div><h3>Memória</h3><p>A experiência de associar aromas a lugares, momentos e histórias que fazem sentido para você.</p></div><div class="benefit"><div class="symbol">◎</div><h3>Continuidade</h3><p>O conceito de perfil digital permite guardar a composição, revisitar sua criação e facilitar futuras recompras.</p></div></div></div></section>
-<section class="editorial" aria-label="Campanha VOYAGE"><img src="assets/campanha.webp" alt="Composição visual da identidade VOYAGE com avião vintage, perfume e fotografia de campanha"><div class="overlay"><div class="wrap" style="width:100%"><span class="eyebrow">THE WORLD IS YOURS</span><h2>Há destinos que você visita.<br><em>Outros, você carrega.</em></h2></div></div></section>
+<section class="editorial" aria-label="Campanha VOYAGE"><span class="window-label" aria-hidden="true">EMBARQUE · ASSENTO 2A · JANELA</span><img src="assets/campanha.webp" alt="Composição visual da identidade VOYAGE com avião vintage, perfume e fotografia de campanha"><div class="overlay"><div class="wrap" style="width:100%"><span class="eyebrow">THE WORLD IS YOURS</span><h2>Há destinos que você visita.<br><em>Outros, você carrega.</em></h2></div></div></section>
 <section class="section cred" id="credibilidade"><div class="wrap creds"><div><span class="eyebrow">04 / AUTORIDADE & CREDIBILIDADE</span><h2 class="heading">O detalhe é a nossa <em>assinatura.</em></h2><p class="lead">A VOYAGE nasce de um conceito claro: transformar a personalização em uma experiência de perfumaria masculina premium, com linguagem visual reconhecível.</p></div><div class="cred-box"><strong>O que sustenta a proposta</strong><h3>Design com propósito</h3><p>Frasco azul-marinho, tampa dourada, avião em gravura vintage e carimbos de cidades: uma identidade coerente do produto à embalagem.</p><h3>Personalização com continuidade</h3><p>Conceito de catálogo, configurações salvas em perfil e possibilidade de compartilhar criações.</p><p><small><b>Transparência:</b> a marca é um projeto em desenvolvimento. Não divulgamos números de clientes, prêmios ou tempo de mercado inexistentes.</small></p></div></div></section>
-<section class="section social" id="avaliacoes"><div class="wrap"><span class="eyebrow">05 / PROVA SOCIAL</span><h2 class="heading">Histórias reais merecem <em>espaço real.</em></h2><div class="social-box"><div><h3>As próximas histórias serão escritas por quem usa VOYAGE.</h3><p>Este espaço está reservado a avaliações verificadas, depoimentos e relatos dos primeiros clientes. Não utilizamos testemunhos fictícios como prova social.</p><a class="btn dark" href="#oferta">Quero conhecer o lançamento ↗</a></div><div class="preview"><div><span style="font:35px 'Playfair Display',serif;color:#b08a50">“ ”</span><br>Área reservada para depoimentos reais<br>após o lançamento da marca.</div></div></div></div></section>
-<section class="section offer" id="oferta"><div class="wrap two-col"><div><span class="eyebrow">06 / SEU PRÓXIMO DESTINO</span><h2 class="heading">A próxima fragrância<br>pode levar <em>seu nome.</em></h2><p class="lead">Demonstre seu interesse pela VOYAGE FOR MEN e imagine uma criação feita para você. Esta é uma prévia do formulário de lançamento.</p><p style="color:#d8c5a9;font:400 23px 'Playfair Display',serif;margin-top:35px">NEW YORK by JOÃO GUILHERME</p></div><div class="formcard"><h3>Inicie sua jornada</h3><p>Formulário demonstrativo — pronto para receber integração de envio.</p><form id="leadform"><div class="field"><label for="name">Seu nome *</label><input id="name" name="name" required maxlength="70" placeholder="Como devemos chamar você?" autocomplete="name"></div><div class="field"><label for="email">Seu e-mail *</label><input id="email" name="email" required type="email" placeholder="voce@exemplo.com" autocomplete="email"></div><div class="field"><label for="destination">Destino preferido</label><select id="destination" name="destination"><option>Paris</option><option>New York</option><option>Tokyo</option><option>Milano</option><option>Dubai</option><option>Quero descobrir</option></select></div><button class="btn dark" type="submit">Preparar meu interesse ↗</button><p class="notice">Protótipo: nenhum dado é enviado ou armazenado. Para captação real de leads, configure um serviço de formulários e publique uma política de privacidade válida.</p><div id="leadresult" class="result" role="status"></div><button class="copy-btn" type="button" id="copybtn">Copiar mensagem de interesse</button></form></div></div></section>
-<section class="section faq" id="duvidas"><div class="wrap faq-grid"><div><span class="eyebrow">07 / DÚVIDAS FREQUENTES</span><h2 class="heading">Sua jornada,<br><em>sem dúvidas.</em></h2><p class="lead">Tudo o que é importante saber antes de escolher o seu próximo destino olfativo.</p></div><div><details open><summary>O perfume é realmente personalizado?</summary><p>A proposta da VOYAGE é permitir a escolha de destino, família olfativa e identificação do frasco. A disponibilidade exata das combinações será informada quando o serviço for lançado.</p></details><details><summary>Posso salvar e comprar novamente a minha criação?</summary><p>A plataforma está planejada para salvar presets em um perfil de cliente, facilitando consulta, compartilhamento e recompra. Trata-se de uma funcionalidade prevista no conceito.</p></details><details><summary>Quanto custa uma fragrância VOYAGE?</summary><p>Preços não foram definidos neste protótipo. Os valores devem ser divulgados antes de qualquer compra, juntamente com volume, composição e condições comerciais.</p></details><details><summary>Qual é o prazo de produção e entrega?</summary><p>O prazo dependerá do destino de entrega e da operação de produção. A informação precisa deverá aparecer na etapa de compra quando o serviço estiver ativo.</p></details><details><summary>Existe garantia ou política de devolução?</summary><p>As condições de troca, arrependimento e garantia precisam constar dos Termos de Uso e da política comercial definitiva, respeitando a legislação aplicável.</p></details><details><summary>Como entro em contato com a marca?</summary><p>Os canais oficiais de atendimento serão divulgados no lançamento. Esta página demonstra a experiência prevista e ainda não recebe solicitações reais.</p></details></div></div></section>
-<section class="finalcta"><div class="wrap"><span class="eyebrow">VOYAGE FOR MEN</span><h2 class="heading">Toda história tem um começo.<br><em>A sua tem um destino.</em></h2><p>EVERY FRAGRANCE HAS A DESTINATION.</p><a href="#oferta" class="btn">Começar minha jornada ↗</a></div></section>
+<section class="section atlas" id="atlas" aria-labelledby="atlasTitle"><div class="wrap">
+<div class="atlas-head"><div><span class="eyebrow">05 / ATLAS OLFATIVO</span><h2 class="heading" id="atlasTitle">Cada destino tem <em>uma vibe própria.</em></h2><p class="lead">Explore o mapa VOYAGE. Clique em um pin e descubra a atmosfera, o ritmo, os rituais e as notas que traduzem cada lugar — depois, leve essa vibe para o seu frasco.</p></div>
+<div class="atlas-stats"><div><b data-count="27">27</b><span>Destinos</span></div><div><b data-count="5">5</b><span>Regiões</span></div><div><b data-count="1">1</b><span>Assinatura sua</span></div></div></div>
+<div class="atlas-bar"><div class="atlas-tabs" id="atlasTabs" role="tablist" aria-label="Filtrar destinos por região"><span class="tab-ind" id="tabInd"></span></div><button class="surprise" type="button" data-surprise>Me surpreenda <span aria-hidden="true">✈</span></button></div>
+<div class="atlas-map" id="atlasMap">
+<svg class="atlas-svg" id="atlasSvg" viewBox="0 0 1000 383.33" role="group" aria-label="Mapa-múndi com destinos VOYAGE. Use Tab para navegar entre os pins e Enter para ver a vibe.">
+<g class="atlas-grat" id="atlasGrat"></g><g class="atlas-land" id="atlasLand"></g>
+<g id="atlasRoute"><path class="route-glow" id="routeGlow" d=""/><path class="route" id="route" d=""/></g>
+<g id="atlasPins"></g>
+<g class="plane" id="plane" style="opacity:0;visibility:hidden"><g id="planeGlyph"><path d="M11 0C11-.9 10-1.4 8.5-1.4H3L-2.5-9H-5L-1.8-1.4H-6.5L-8.6-4.2H-10.4L-9.2 0-10.4 4.2H-8.6L-6.5 1.4H-1.8L-5 9H-2.5L3 1.4H8.5C10 1.4 11 .9 11 0Z"/></g></g>
+</svg>
+<div class="atlas-tip" id="atlasTip" aria-hidden="true"><span></span><b></b></div>
+<span class="map-corner tl">80° N — 58° S</span><span class="map-hint">Clique nos pins · filtre por região</span><span class="map-corner br">VOYAGE · ATLAS</span>
+</div>
+<div class="atlas-rail" id="atlasRail" aria-label="Lista de destinos"></div>
+<div class="atlas-panel" id="atlasPanel" aria-live="polite"><div class="panel-accent"></div>
+<div class="panel-empty"><img class="panel-stamp" src="assets/selo.webp" alt=""><div><span class="p-label">Seu próximo embarque</span><h3>Escolha um destino no mapa.</h3><p>Cada pin revela a vibe completa do lugar: atmosfera, trilha sonora, estilo, rituais locais, intensidade e a pirâmide olfativa que o traduz em fragrância.</p></div><button class="btn dark" type="button" data-surprise>Me surpreenda ✈</button></div>
+<div class="panel-body">
+<div class="p-col"><div class="p-top"><span class="eyebrow p-tag" id="pTag" data-a></span><div class="p-nav"><button type="button" id="pPrev" aria-label="Destino anterior">←</button><span id="pIndex">01 / 27</span><button type="button" id="pNext" aria-label="Próximo destino">→</button></div></div><h3 class="p-city" id="pCity" data-a></h3><div class="p-meta" data-a><span id="pCountry"></span> · <span id="pCoords"></span></div><p class="p-vibe" id="pVibe" data-a></p><div class="p-moods" id="pMoods" data-a></div></div>
+<div class="p-col"><span class="p-label" data-a>Intensidade da vibe</span><div id="pMeters" data-a></div><span class="p-label" data-a style="margin-top:28px">Pirâmide olfativa · <span id="pFamily"></span></span><div class="notes" id="pNotes" data-a></div></div>
+<div class="p-col"><span class="p-label" data-a>A vibe em detalhes</span><dl class="p-details" id="pDetails" data-a></dl><div class="p-palette" id="pPalette" data-a></div><div class="p-cta" data-a><div class="p-sign" id="pSign"></div><button class="btn" type="button" id="pUse">Criar com este destino ↗</button></div></div>
+</div></div>
+</div></section>
+<section class="section social" id="avaliacoes"><div class="wrap"><span class="eyebrow">06 / PROVA SOCIAL</span><h2 class="heading">Histórias reais merecem <em>espaço real.</em></h2><div class="social-box"><div><h3>As próximas histórias serão escritas por quem usa VOYAGE.</h3><p>Este espaço está reservado a avaliações verificadas, depoimentos e relatos dos primeiros clientes. Não utilizamos testemunhos fictícios como prova social.</p><a class="btn dark" href="#oferta">Quero conhecer o lançamento ↗</a></div><div class="preview"><div><span style="font:35px 'Playfair Display',serif;color:#b08a50">“ ”</span><br>Área reservada para depoimentos reais<br>após o lançamento da marca.</div></div></div></div></section>
+<section class="section offer" id="oferta"><div class="wrap two-col"><div><span class="eyebrow">07 / SEU PRÓXIMO DESTINO</span><h2 class="heading">A próxima fragrância<br>pode levar <em>seu nome.</em></h2><p class="lead">Demonstre seu interesse pela VOYAGE FOR MEN e imagine uma criação feita para você. Esta é uma prévia do formulário de lançamento.</p><p id="offerSign" aria-live="polite" style="color:#d8c5a9;font:400 23px 'Playfair Display',serif;margin-top:35px">NEW YORK by JOÃO GUILHERME</p></div><div class="formcard"><h3>Inicie sua jornada</h3><p>Formulário demonstrativo — pronto para receber integração de envio.</p><form id="leadform"><div class="field"><label for="name">Seu nome *</label><input id="name" name="name" required maxlength="70" placeholder="Como devemos chamar você?" autocomplete="name"></div><div class="field"><label for="email">Seu e-mail *</label><input id="email" name="email" required type="email" placeholder="voce@exemplo.com" autocomplete="email"></div><div class="field"><label for="destination">Destino preferido</label><select id="destination" name="destination"><option>Paris</option><option>New York</option><option>Tokyo</option><option>Milano</option><option>Dubai</option><option>Quero descobrir</option></select></div><button class="btn dark" type="submit">Preparar meu interesse ↗</button><p class="notice">Protótipo: nenhum dado é enviado ou armazenado. Para captação real de leads, configure um serviço de formulários e publique uma política de privacidade válida.</p><div id="leadresult" class="result" role="status"></div><button class="copy-btn" type="button" id="copybtn">Copiar mensagem de interesse</button></form></div></div></section>
+<section class="section faq" id="duvidas"><div class="wrap faq-grid"><div><span class="eyebrow">08 / DÚVIDAS FREQUENTES</span><h2 class="heading">Sua jornada,<br><em>sem dúvidas.</em></h2><p class="lead">Tudo o que é importante saber antes de escolher o seu próximo destino olfativo.</p></div><div><details open><summary>O perfume é realmente personalizado?</summary><p>A proposta da VOYAGE é permitir a escolha de destino, família olfativa e identificação do frasco. A disponibilidade exata das combinações será informada quando o serviço for lançado.</p></details><details><summary>Posso salvar e comprar novamente a minha criação?</summary><p>A plataforma está planejada para salvar presets em um perfil de cliente, facilitando consulta, compartilhamento e recompra. Trata-se de uma funcionalidade prevista no conceito.</p></details><details><summary>Quanto custa uma fragrância VOYAGE?</summary><p>Preços não foram definidos neste protótipo. Os valores devem ser divulgados antes de qualquer compra, juntamente com volume, composição e condições comerciais.</p></details><details><summary>Qual é o prazo de produção e entrega?</summary><p>O prazo dependerá do destino de entrega e da operação de produção. A informação precisa deverá aparecer na etapa de compra quando o serviço estiver ativo.</p></details><details><summary>Existe garantia ou política de devolução?</summary><p>As condições de troca, arrependimento e garantia precisam constar dos Termos de Uso e da política comercial definitiva, respeitando a legislação aplicável.</p></details><details><summary>Como entro em contato com a marca?</summary><p>Os canais oficiais de atendimento serão divulgados no lançamento. Esta página demonstra a experiência prevista e ainda não recebe solicitações reais.</p></details></div></div></section>
+<section class="finalcta"><img class="final-stamp" src="assets/selo.webp" alt="" aria-hidden="true"><div class="wrap"><span class="eyebrow">VOYAGE FOR MEN</span><h2 class="heading">Toda história tem um começo.<br><em>A sua tem um destino.</em></h2><p>EVERY FRAGRANCE HAS A DESTINATION.</p><a href="#oferta" class="btn">Começar minha jornada ↗</a></div></section>
 </main>
 <footer><div class="wrap"><div class="footer-grid"><div><div class="wordmark">VOYAGE<small>FOR MEN</small></div><p>Perfumaria masculina premium inspirada em destinos.</p></div><div class="footer-links"><a href="#" data-legal="privacy">Política de privacidade</a><a href="#" data-legal="terms">Termos de uso</a><a href="#" data-legal="security">Segurança</a></div></div><div class="legal">© <span id="year"></span> VOYAGE FOR MEN. Projeto conceitual de marca. CNPJ: <b>[INSERIR CNPJ REAL ANTES DE PUBLICAR]</b>. As imagens e experiências apresentadas são ilustrativas. Este protótipo não processa pagamentos ou cadastros.</div></div></footer>
 <div class="legal-modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="legal-dialog"><button class="close" id="closemodal" aria-label="Fechar">×</button><h2 id="modalTitle">Informações legais</h2><div id="modalBody"></div></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script>
 const menu=document.getElementById('nav'),toggle=document.getElementById('menubtn');toggle.addEventListener('click',()=>{let expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));menu.classList.toggle('open',!expanded)});document.querySelectorAll('#nav a').forEach(x=>x.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));document.getElementById('year').textContent=new Date().getFullYear();
-const city=document.getElementById('city'),notes=document.getElementById('notes');function updatePreview(){document.getElementById('previewname').textContent=`${city.value} by VOCÊ · ${notes.value}`};city.addEventListener('change',updatePreview);notes.addEventListener('change',updatePreview);updatePreview();
+const city=document.getElementById('city'),notes=document.getElementById('notes');function updatePreview(){const el=document.getElementById('previewname'),txt=`${city.value} by VOCÊ · ${notes.value}`;if(window.voyageScramble)window.voyageScramble(el,txt,.8);else el.textContent=txt};city.addEventListener('change',updatePreview);notes.addEventListener('change',updatePreview);updatePreview();
 let prepared='';document.getElementById('leadform').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('name').value.trim(),email=document.getElementById('email').value.trim(),dest=document.getElementById('destination').value;if(!name||!email||!document.getElementById('leadform').reportValidity())return;prepared=`Olá, equipe VOYAGE FOR MEN!\nMeu nome é ${name}.\nMeu e-mail para contato é ${email}.\nDestino de interesse: ${dest}.\nGostaria de receber informações sobre o lançamento e a personalização de fragrâncias.`;const result=document.getElementById('leadresult');result.textContent='Sua mensagem de interesse está preparada abaixo (ainda não foi enviada):\n\n'+prepared;result.classList.add('show');document.getElementById('copybtn').classList.add('show')});document.getElementById('copybtn').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(prepared);document.getElementById('copybtn').textContent='Mensagem copiada ✓'}catch(e){const box=document.getElementById('leadresult');const range=document.createRange();range.selectNodeContents(box);const sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);document.getElementById('copybtn').textContent='Selecione e copie a mensagem'}});
 const modal=document.getElementById('modal');const legal={privacy:['Política de privacidade — prévia','<p>Esta página é um protótipo e não transmite nem armazena dados enviados no formulário. Antes da publicação, será necessário informar responsável pelo tratamento, finalidade, base legal, compartilhamentos, retenção e canais para exercício de direitos previstos na LGPD.</p>'],terms:['Termos de uso — prévia','<p>O conteúdo desta página é demonstrativo. A operação de venda, personalização, preços, frete, prazo, devolução e suporte ainda depende de definição comercial e jurídica. Publique termos completos antes da operação.</p>'],security:['Informações de segurança','<p>Esta demonstração não realiza transações nem usa plataforma de pagamento. Não exibe selos de certificação não obtidos. Na versão publicada, habilite HTTPS, proteções de formulário e pagamento por provedor confiável.</p>']};document.querySelectorAll('[data-legal]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const v=legal[a.dataset.legal];document.getElementById('modalTitle').textContent=v[0];document.getElementById('modalBody').innerHTML=v[1];modal.classList.add('open');document.getElementById('closemodal').focus()}));function close(){modal.classList.remove('open')}document.getElementById('closemodal').addEventListener('click',close);modal.addEventListener('click',e=>{if(e.target===modal)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+</script>
+
+<!-- ============ ANIMAÇÕES GSAP + SCROLLTRIGGER ============ -->
+<script>
+(() => {
+  const root = document.documentElement;
+  if (!window.gsap || !window.ScrollTrigger) { root.classList.remove('js-loading'); return; }
+  gsap.registerPlugin(ScrollTrigger);
+
+  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const FINE = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const $ = (s, c = document) => c.querySelector(s);
+  const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+
+  /* ---------- Utilitários ---------- */
+  // Divide um título em palavras mascaradas, preservando <em> e <br>
+  function splitWords(el) {
+    if (!el) return [];
+    if (el._words) return el._words;
+    const walk = node => {
+      [...node.childNodes].forEach(n => {
+        if (n.nodeType === 3) {
+          const frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(part => {
+            if (!part) return;
+            if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+            const w = document.createElement('span'); w.className = 'w';
+            const i = document.createElement('span'); i.className = 'wi'; i.textContent = part;
+            w.appendChild(i); frag.appendChild(w);
+          });
+          n.replaceWith(frag);
+        } else if (n.nodeType === 1 && n.tagName !== 'BR') walk(n);
+      });
+    };
+    walk(el);
+    el._words = $$('.wi', el);
+    return el._words;
+  }
+  window.voyageSplit = splitWords;
+
+  // Efeito "letreiro de aeroporto" ao trocar textos
+  const GLYPHS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  function scramble(el, text, dur = .8) {
+    if (!el) return;
+    if (el._scr) el._scr.kill();
+    if (RM) { el.textContent = text; return; }
+    const from = el.textContent, o = { p: 0 }, tail = 5;
+    el._scr = gsap.to(o, {
+      p: 1, duration: dur, ease: 'none',
+      onUpdate() {
+        let out = '';
+        const head = o.p * (text.length + tail);
+        for (let i = 0; i < text.length; i++) {
+          const t = head - i;
+          if (text[i] === ' ' || t >= tail) out += text[i];
+          else if (t > 0) out += GLYPHS[(Math.random() * GLYPHS.length) | 0];
+          else out += from[i] || '';
+        }
+        el.textContent = out;
+      },
+      onComplete() { el.textContent = text; }
+    });
+  }
+  window.voyageScramble = scramble;
+
+  function countUp(el, to, dur = 1.4) {
+    const o = { v: 0 };
+    gsap.to(o, { v: to, duration: RM ? 0 : dur, ease: 'power2.out', onUpdate: () => { el.textContent = Math.round(o.v); } });
+  }
+  window.voyageCount = countUp;
+
+  /* ---------- Header inteligente + barra de progresso + menu ativo ---------- */
+  const header = $('header'), nav = $('#nav');
+  ScrollTrigger.create({
+    start: 0, end: 'max',
+    onUpdate(self) {
+      const y = self.scroll();
+      header.classList.toggle('scrolled', y > 40);
+      header.classList.toggle('hide', !nav.classList.contains('open') && self.direction === 1 && y > 600);
+    }
+  });
+  gsap.to('.scroll-progress', { scaleX: 1, ease: 'none', scrollTrigger: { start: 0, end: 'max', scrub: .3 } });
+  $$('#nav a[href^="#"]:not(.navcta)').forEach(a => {
+    const sec = $(a.getAttribute('href'));
+    if (sec) ScrollTrigger.create({ trigger: sec, start: 'top 50%', end: 'bottom 50%', onToggle: s => a.classList.toggle('active', s.isActive) });
+  });
+
+  // Prepara estruturas usadas pelas animações (feito uma única vez)
+  const edWords = splitWords($('.editorial h2'));
+  $$('.benefit').forEach(b => { const l = document.createElement('i'); l.className = 'bline'; b.style.borderTopColor = 'transparent'; b.prepend(l); });
+
+  const mm = gsap.matchMedia();
+
+  /* ---------- Editorial: "janela de avião" fixada no scroll (desktop) ---------- */
+  mm.add('(min-width: 901px) and (prefers-reduced-motion: no-preference)', () => {
+    const ed = $('.editorial');
+    ed.classList.add('cinema');
+    const tl = gsap.timeline({
+      scrollTrigger: { trigger: ed, start: 'top top', end: '+=140%', pin: true, scrub: 1, refreshPriority: 1 }
+    });
+    tl.fromTo('.editorial img',
+        { clipPath: 'inset(20% 38% 20% 38% round 220px)', scale: 1.28 },
+        { clipPath: 'inset(0% 0% 0% 0% round 0px)', scale: 1, ease: 'none', duration: 1 })
+      .to('.window-label', { autoAlpha: 0, y: -20, duration: .3 }, 0)
+      .fromTo('.editorial .overlay', { autoAlpha: 0 }, { autoAlpha: 1, duration: .35 }, .5)
+      .from('.editorial .eyebrow', { autoAlpha: 0, x: -20, duration: .3 }, .62)
+      .from(edWords, { yPercent: 115, stagger: .045, duration: .35 }, .66);
+    return () => ed.classList.remove('cinema');
+  });
+  mm.add('(max-width: 900px) and (prefers-reduced-motion: no-preference)', () => {
+    gsap.fromTo('.editorial img', { yPercent: -8, scale: 1.2 }, { yPercent: 8, ease: 'none', scrollTrigger: { trigger: '.editorial', scrub: true } });
+    gsap.from(edWords, { yPercent: 115, stagger: .05, duration: .9, ease: 'power4.out', scrollTrigger: { trigger: '.editorial', start: 'top 70%' } });
+  });
+
+  /* ---------- Animações principais (respeita "reduzir movimento") ---------- */
+  mm.add('(prefers-reduced-motion: no-preference)', () => {
+    // Intro do hero
+    const h1w = splitWords($('.hero h1'));
+    gsap.timeline({ defaults: { ease: 'power3.out' } })
+      .from('.head-inner > *', { y: -24, autoAlpha: 0, duration: .8, stagger: .08 })
+      .from('.hero .eyebrow', { autoAlpha: 0, letterSpacing: '.6em', duration: 1.1 }, .1)
+      .from(h1w, { yPercent: 115, duration: 1.05, stagger: .07, ease: 'power4.out' }, .2)
+      .from(['.hero-copy p', '.hero-actions', '.hero .micro'], { y: 26, autoAlpha: 0, duration: .8, stagger: .12 }, .65)
+      .fromTo('.hero-visual', { clipPath: 'inset(100% 0% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.3, ease: 'expo.inOut', clearProps: 'clipPath' }, .15)
+      .from('.hero-model', { scale: 1.25, duration: 1.8, ease: 'expo.out' }, .4)
+      .from('.hero-product-card', { y: 80, rotation: -6, autoAlpha: 0, duration: 1.1 }, 1.35)
+      .from('.hero-stamp', { scale: 0, autoAlpha: 0, duration: .9, ease: 'back.out(1.8)' }, 1.5)
+      .from(['.hero-photo-caption', '.vertical-text'], { autoAlpha: 0, y: 12, duration: .8, stagger: .1 }, 1.5)
+      .from('.crumb span', { y: 16, autoAlpha: 0, stagger: .1, duration: .6 }, 1.1);
+
+    // Parallax do hero no scroll
+    gsap.timeline({ scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } })
+      .to('.hero-model', { yPercent: 9, ease: 'none' }, 0)
+      .to('.hero-copy', { y: -90, opacity: .15, ease: 'none' }, 0)
+      .to('.hero-product-card', { yPercent: -28, ease: 'none' }, 0)
+      .to('.hero-stamp', { rotation: 200, ease: 'none' }, 0);
+
+    // Títulos: revelação palavra por palavra
+    $$('.heading').forEach(h => {
+      gsap.from(splitWords(h), { yPercent: 115, duration: 1, ease: 'power4.out', stagger: .045, scrollTrigger: { trigger: h, start: 'top 87%' } });
+    });
+    $$('.eyebrow:not(.p-tag)').filter(e => !e.closest('.hero, .editorial')).forEach(e => {
+      gsap.from(e, { autoAlpha: 0, x: -18, letterSpacing: '.45em', duration: 1, ease: 'power3.out', scrollTrigger: { trigger: e, start: 'top 90%' } });
+    });
+    $$('.lead').forEach(e => {
+      gsap.from(e, { y: 24, autoAlpha: 0, duration: .9, ease: 'power3.out', scrollTrigger: { trigger: e, start: 'top 90%' } });
+    });
+
+    // 01 · Problema
+    gsap.from('.problem-list div', { x: -40, autoAlpha: 0, stagger: .12, duration: .8, ease: 'power3.out', scrollTrigger: { trigger: '.problem-list', start: 'top 86%' } });
+    gsap.fromTo('.quote-box',
+      { x: 60, autoAlpha: 0, boxShadow: '0px 0px 0px #e4d8c5' },
+      { x: 0, autoAlpha: 1, boxShadow: '16px 16px 0px #e4d8c5', duration: 1.2, ease: 'power3.out', clearProps: 'boxShadow', scrollTrigger: { trigger: '.quote-box', start: 'top 85%' } });
+    gsap.from(splitWords($('.quote-box blockquote')), { autoAlpha: 0, y: 14, stagger: .035, duration: .6, delay: .35, ease: 'power2.out', scrollTrigger: { trigger: '.quote-box', start: 'top 85%' } });
+
+    // 02 · Experiência
+    gsap.from('.step', { y: 90, rotationX: -28, transformPerspective: 900, transformOrigin: '50% 100%', autoAlpha: 0, duration: 1.1, stagger: .15, ease: 'power3.out', scrollTrigger: { trigger: '.steps', start: 'top 84%' } });
+    gsap.from('.step > span', { scale: .4, autoAlpha: 0, duration: .8, stagger: .15, delay: .35, ease: 'back.out(2.2)', scrollTrigger: { trigger: '.steps', start: 'top 84%' } });
+    gsap.fromTo('.custom', { y: 50, autoAlpha: 0, clipPath: 'inset(0% 0% 100% 0%)' }, { y: 0, autoAlpha: 1, clipPath: 'inset(0% 0% 0% 0%)', duration: 1.1, ease: 'expo.out', clearProps: 'clipPath', scrollTrigger: { trigger: '.custom', start: 'top 88%' } });
+    gsap.from('.custom select', { y: 18, autoAlpha: 0, stagger: .1, duration: .6, delay: .4, scrollTrigger: { trigger: '.custom', start: 'top 88%' } });
+
+    // 03 · Benefícios
+    gsap.timeline({ scrollTrigger: { trigger: '.benefit-cards', start: 'top 84%' } })
+      .from('.bline', { scaleX: 0, transformOrigin: 'left center', duration: 1.1, stagger: .15, ease: 'expo.out' })
+      .from('.benefit .symbol', { scale: 0, rotation: -120, autoAlpha: 0, duration: .8, stagger: .15, ease: 'back.out(2)' }, .15)
+      .from('.benefit h3, .benefit p', { y: 20, autoAlpha: 0, stagger: .06, duration: .6 }, .3);
+
+    // 04 · Credibilidade
+    gsap.from('.cred-box', { y: 60, autoAlpha: 0, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: '.cred-box', start: 'top 86%' } });
+    gsap.from('.cred-box > *', { y: 18, autoAlpha: 0, stagger: .08, duration: .6, delay: .25, scrollTrigger: { trigger: '.cred-box', start: 'top 86%' } });
+
+    // 06 · Prova social
+    gsap.from('.social-box', { y: 60, autoAlpha: 0, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: '.social-box', start: 'top 86%' } });
+    gsap.from('.social-box .preview > div', { scale: .85, autoAlpha: 0, duration: 1, delay: .3, ease: 'expo.out', scrollTrigger: { trigger: '.social-box', start: 'top 86%' } });
+
+    // 07 · Oferta
+    gsap.fromTo('.formcard',
+      { x: 80, rotation: 1.5, autoAlpha: 0, boxShadow: '0px 0px 0px #9e7948' },
+      { x: 0, rotation: 0, autoAlpha: 1, boxShadow: '16px 16px 0px #9e7948', duration: 1.2, ease: 'power3.out', clearProps: 'boxShadow', scrollTrigger: { trigger: '.formcard', start: 'top 85%' } });
+    gsap.from('.formcard .field, .formcard .btn', { y: 20, autoAlpha: 0, stagger: .08, duration: .6, delay: .35, scrollTrigger: { trigger: '.formcard', start: 'top 85%' } });
+
+    // 08 · FAQ
+    gsap.from('.faq details', { y: 24, autoAlpha: 0, stagger: .08, duration: .7, ease: 'power3.out', scrollTrigger: { trigger: '.faq details', start: 'top 88%' } });
+
+    // CTA final + rodapé
+    gsap.to('.final-stamp', { rotation: 160, ease: 'none', scrollTrigger: { trigger: '.finalcta', start: 'top bottom', end: 'bottom top', scrub: true } });
+    gsap.from('.finalcta .btn', { scale: .8, autoAlpha: 0, duration: .9, ease: 'back.out(2)', scrollTrigger: { trigger: '.finalcta', start: 'top 70%' } });
+    gsap.from('footer .footer-grid > *, footer .legal', { y: 22, autoAlpha: 0, stagger: .1, duration: .7, scrollTrigger: { trigger: 'footer', start: 'top 95%' } });
+  });
+
+  root.classList.remove('js-loading');
+
+  /* ---------- Interações de UI ---------- */
+  // FAQ: abrir/fechar com altura animada
+  $$('.faq details').forEach(d => {
+    const s = $('summary', d), p = $('p', d);
+    s.addEventListener('click', e => {
+      e.preventDefault();
+      gsap.killTweensOf(p);
+      if (d.open) {
+        gsap.to(p, { height: 0, opacity: 0, marginTop: 0, duration: RM ? 0 : .35, ease: 'power2.in', onComplete() { d.open = false; gsap.set(p, { clearProps: 'all' }); } });
+      } else {
+        d.open = true;
+        gsap.fromTo(p, { height: 0, opacity: 0, marginTop: 0 }, { height: 'auto', opacity: 1, marginTop: 14, duration: RM ? 0 : .5, ease: 'power3.out', clearProps: 'height,marginTop,opacity' });
+      }
+    });
+  });
+
+  // Assinatura da oferta: alterna exemplos e responde ao nome/destino digitados
+  const offerSign = $('#offerSign'), nameIn = $('#name'), destSel = $('#destination');
+  const SIGNS = ['NEW YORK by JOÃO GUILHERME', 'PARIS by RAFAEL', 'TOKYO by LUCAS', 'DUBAI by MATHEUS', 'LISBOA by PEDRO', 'RIO by GABRIEL'];
+  let rotI = 0, rotOn = true;
+  function rotate() { if (!rotOn) return; rotI = (rotI + 1) % SIGNS.length; scramble(offerSign, SIGNS[rotI], 1); gsap.delayedCall(3.4, rotate); }
+  ScrollTrigger.create({ trigger: offerSign, start: 'top 90%', once: true, onEnter: () => gsap.delayedCall(2.2, rotate) });
+  function liveSign() {
+    rotOn = false;
+    const opt = destSel.selectedOptions[0];
+    const c = opt.dataset.sign || (opt.value === 'Quero descobrir' ? 'SEU DESTINO' : opt.value.toUpperCase());
+    const n = nameIn.value.trim().toUpperCase() || 'VOCÊ';
+    scramble(offerSign, `${c} by ${n}`, .45);
+  }
+  window.voyageLiveSign = liveSign;
+  nameIn.addEventListener('input', liveSign);
+  destSel.addEventListener('change', liveSign);
+
+  // Resultado do formulário entra animado
+  $('#leadform').addEventListener('submit', () => {
+    requestAnimationFrame(() => {
+      const r = $('#leadresult');
+      if (r.classList.contains('show')) {
+        gsap.fromTo(r, { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: RM ? 0 : .6, ease: 'power3.out' });
+        gsap.fromTo('#copybtn', { autoAlpha: 0, y: 10 }, { autoAlpha: 1, y: 0, duration: RM ? 0 : .5, delay: RM ? 0 : .2 });
+      }
+    });
+  });
+
+  // Cards de passos ganham tilt 3D (mouse)
+  if (FINE && !RM) {
+    $$('.step, .cred-box').forEach(card => {
+      gsap.set(card, { transformPerspective: 900 });
+      const rx = gsap.quickTo(card, 'rotationX', { duration: .6, ease: 'power3' });
+      const ry = gsap.quickTo(card, 'rotationY', { duration: .6, ease: 'power3' });
+      card.addEventListener('pointermove', e => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        ry((x - .5) * 9); rx((.5 - y) * 9);
+        card.style.setProperty('--gx', (x * 100) + '%'); card.style.setProperty('--gy', (y * 100) + '%');
+      });
+      card.addEventListener('pointerleave', () => { rx(0); ry(0); });
+    });
+
+    // Botões magnéticos
+    $$('.btn, .navcta, .surprise').forEach(b => {
+      const xTo = gsap.quickTo(b, 'x', { duration: .5, ease: 'power3' });
+      const yTo = gsap.quickTo(b, 'y', { duration: .5, ease: 'power3' });
+      b.addEventListener('pointermove', e => {
+        const r = b.getBoundingClientRect();
+        xTo((e.clientX - r.left - r.width / 2) * .22); yTo((e.clientY - r.top - r.height / 2) * .35);
+      });
+      b.addEventListener('pointerleave', () => { xTo(0); yTo(0); });
+    });
+
+    // Parallax do hero seguindo o mouse
+    const hero = $('.hero');
+    const layers = [['.hero-product-card', 18], ['.hero-stamp', 30], ['.hero-model', -8]].map(([s, f]) => {
+      const el = $(s);
+      return { f, x: gsap.quickTo(el, 'x', { duration: 1, ease: 'power3' }), y: gsap.quickTo(el, 'y', { duration: 1, ease: 'power3' }) };
+    });
+    hero.addEventListener('pointermove', e => {
+      const r = hero.getBoundingClientRect();
+      const nx = (e.clientX - r.left) / r.width - .5, ny = (e.clientY - r.top) / r.height - .5;
+      layers.forEach(l => { l.x(nx * l.f); l.y(ny * l.f); });
+    });
+    hero.addEventListener('pointerleave', () => layers.forEach(l => { l.x(0); l.y(0); }));
+
+    // Holofote dourado no CTA final
+    const fc = $('.finalcta');
+    gsap.set(fc, { '--mx': (fc.offsetWidth / 2) + 'px', '--my': (fc.offsetHeight * .4) + 'px' });
+    fc.addEventListener('pointermove', e => {
+      const r = fc.getBoundingClientRect();
+      gsap.to(fc, { '--mx': (e.clientX - r.left) + 'px', '--my': (e.clientY - r.top) + 'px', duration: .6, ease: 'power2.out' });
+    });
+
+    // Cursor personalizado
+    const cur = document.createElement('div'), dot = document.createElement('div');
+    cur.className = 'cursor'; dot.className = 'cursor-dot';
+    document.body.append(cur, dot);
+    const cx = gsap.quickTo(cur, 'x', { duration: .45, ease: 'power3' }), cy = gsap.quickTo(cur, 'y', { duration: .45, ease: 'power3' });
+    const dx = gsap.quickTo(dot, 'x', { duration: .08 }), dy = gsap.quickTo(dot, 'y', { duration: .08 });
+    let shown = false;
+    window.addEventListener('pointermove', e => {
+      cx(e.clientX); cy(e.clientY); dx(e.clientX); dy(e.clientY);
+      if (!shown) { shown = true; gsap.to([cur, dot], { autoAlpha: 1, duration: .3 }); }
+    });
+    document.addEventListener('pointerleave', () => { shown = false; gsap.to([cur, dot], { autoAlpha: 0, duration: .3 }); });
+    document.addEventListener('pointerover', e => {
+      const hot = e.target.closest('a, button, select, summary, input, .pin, label');
+      gsap.to(cur, { scale: hot ? 1.8 : 1, backgroundColor: hot ? 'rgba(176,138,80,.14)' : 'rgba(176,138,80,0)', duration: .3 });
+    });
+  }
+
+  // Recalcula posições após fontes/imagens
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => ScrollTrigger.refresh());
+  window.addEventListener('load', () => ScrollTrigger.refresh());
+})();
+</script>
+
+<!-- ============ ATLAS OLFATIVO (MAPA INTERATIVO) ============ -->
+<script>
+(() => {
+  const svg = document.getElementById('atlasSvg');
+  if (!svg || !window.gsap) return;
+  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const D = s => (RM ? 0 : s);
+  const $ = (s, c = document) => c.querySelector(s);
+  const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+  const scramble = window.voyageScramble || ((el, t) => { el.textContent = t; });
+  const NS = 'http://www.w3.org/2000/svg';
+  const mk = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+
+  // Projeção equiretangular recortada (80°N a 58°S)
+  const W = 1000, LT = 80, LB = -58, H = W * (LT - LB) / 360;
+  const proj = (lon, lat) => [(lon + 180) / 360 * W, (LT - lat) / (LT - LB) * H];
+
+  /* ---------- Destinos ---------- */
+  // m = [energia, sofisticação, mistério] · lab = posição do rótulo (r, l, t, b)
+  const DEST = [
+    { id:'paris', city:'Paris', country:'França', region:'europa', lat:48.8566, lon:2.3522, sign:'PARIS', tag:'Romance com alfaiataria',
+      vibe:'Paris é elegância sem esforço: cafés com mesas viradas para a rua, pedra calcária dourada ao fim da tarde e o Sena refletindo luzes que parecem ensaiadas. É uma cidade que valoriza o detalhe — o corte do casaco, o vinho certo, a conversa que se estende. Aqui, o charme é uma forma de silêncio.',
+      moods:['Romântica','Intelectual','Atemporal'], notes:['Bergamota & pera','Íris & lavanda','Couro suave & almíscar'], family:'Amadeirada',
+      sound:'Jazz manouche e chanson tocando no vinil', hour:'Hora azul sobre a Pont des Arts', look:'Trench coat, gola alta e sapato de couro', ritual:'Um espresso no balcão antes de caminhar pelo Marais', palette:['#C9B79C','#3E4A5C','#E8DCC8'], m:[62,96,70] },
+    { id:'londres', city:'Londres', country:'Reino Unido', region:'europa', lat:51.5074, lon:-0.1278, lab:'l', sign:'LONDON', tag:'Tradição com pulso urbano',
+      vibe:'Londres alterna o cerimonial e o rebelde com naturalidade. Num quarteirão, alfaiates de Savile Row e clubes de cavalheiros; no seguinte, galerias em antigos armazéns e mercados que fervem até tarde. A neblina não esconde a cidade — só a deixa mais interessante.',
+      moods:['Clássica','Criativa','Enigmática'], notes:['Chá preto & limão','Gerânio & pimenta rosa','Tabaco & cedro'], family:'Amadeirada',
+      sound:'Britpop e soul em pubs com piso de madeira', hour:'Fim de tarde garoando em Mayfair', look:'Blazer de tweed, guarda-chuva e boot Chelsea', ritual:'Um gin tônica em um bar escondido do Soho', palette:['#4A5560','#8C6A4A','#D9D3C7'], m:[78,88,74] },
+    { id:'roma', city:'Roma', country:'Itália', region:'europa', lat:41.9028, lon:12.4964, sign:'ROMA', tag:'A eternidade ao ar livre',
+      vibe:'Em Roma, dois mil anos convivem com o barulho das vespas. Fontes barrocas, ruínas iluminadas à noite e trattorias de toalha xadrez fazem da cidade um museu que ninguém leva muito a sério — e é aí que mora o encanto. Tudo é intenso: o sol, o café, a gesticulação.',
+      moods:['Apaixonada','Histórica','Solar'], notes:['Laranja amarga & manjericão','Incenso & rosa','Âmbar & madeira de oliveira'], family:'Ambarada',
+      sound:'Trilhas do cinema italiano dos anos 60', hour:'Pôr do sol no Gianicolo', look:'Camisa de linho aberta e mocassim sem meia', ritual:'Uma cacio e pepe tarde da noite em Trastevere', palette:['#C46B3E','#E3C08D','#6B4A3A'], m:[80,82,60] },
+    { id:'milao', city:'Milão', country:'Itália', region:'europa', lat:45.4642, lon:9.19, sign:'MILANO', tag:'Design como estilo de vida',
+      vibe:'Milão é precisa como um bom corte. Por trás de fachadas sóbrias existem pátios secretos, showrooms impecáveis e o ritual do aperitivo, que transforma o fim do expediente em evento social. É a capital de quem entende que estilo é disciplina.',
+      moods:['Sofisticada','Precisa','Cosmopolita'], notes:['Mandarina & cardamomo','Vetiver & sálvia','Camurça & fava tonka'], family:'Amadeirada',
+      sound:'House minimalista em um rooftop de Brera', hour:'Aperitivo às 19h nos Navigli', look:'Terno desestruturado, malha fina e loafer', ritual:'Negroni sbagliato em um bar de mármore', palette:['#1F2A36','#B9A27E','#EDE6DA'], m:[74,98,58] },
+    { id:'barcelona', city:'Barcelona', country:'Espanha', region:'europa', lat:41.3874, lon:2.1686, lab:'b', sign:'BARCELONA', tag:'Mediterrâneo em movimento',
+      vibe:'Barcelona mistura praia e arquitetura onírica sem pedir licença. As curvas de Gaudí, os becos do Bairro Gótico e o mar logo ali criam uma cidade que vive tarde: jantar às dez, conversa até as duas, mergulho ao amanhecer.',
+      moods:['Vibrante','Artística','Litorânea'], notes:['Toranja & figo verde','Flor de laranjeira & alecrim','Sal marinho & cedro'], family:'Cítrica',
+      sound:'Rumba catalã e eletrônica balear', hour:'Madrugada na Barceloneta', look:'Camisa cubana e bermuda de alfaiataria', ritual:'Vermute com tapas no El Born', palette:['#E07A4F','#2E6E8E','#F2D7A6'], m:[90,72,52] },
+    { id:'lisboa', city:'Lisboa', country:'Portugal', region:'europa', lat:38.7223, lon:-9.1393, lab:'l', sign:'LISBOA', tag:'Saudade banhada de luz',
+      vibe:'Lisboa é dourada e melancólica ao mesmo tempo. Bondes amarelos sobem colinas de azulejos, o Tejo brilha como espelho e o fado escapa de portas entreabertas. Uma cidade que convida a desacelerar e olhar mais longe.',
+      moods:['Poética','Luminosa','Nostálgica'], notes:['Limão siciliano & neroli','Cipreste & chá branco','Madeira molhada & âmbar'], family:'Cítrica',
+      sound:'Fado ao vivo em Alfama', hour:'Entardecer no Miradouro da Senhora do Monte', look:'Linho cru, cardigã leve e alpargata', ritual:'Pastel de nata ainda morno e vinho verde ao fim do dia', palette:['#F1C85B','#3B6EA5','#F4EBDD'], m:[58,76,72] },
+    { id:'santorini', city:'Santorini', country:'Grécia', region:'europa', lat:36.3932, lon:25.4615, lab:'b', sign:'SANTORINI', tag:'Branco, azul e infinito',
+      vibe:'Santorini é um anfiteatro sobre o mar Egeu: casas caiadas penduradas na caldeira, cúpulas azuis e um pôr do sol que a ilha inteira para para aplaudir. O vento traz sal, figo e pedra vulcânica aquecida pelo dia.',
+      moods:['Contemplativa','Solar','Serena'], notes:['Limão & folha de figo','Sálvia & pedra quente','Âmbar cinza & almíscar'], family:'Aquática',
+      sound:'Lounge acústico e ondas batendo nas rochas', hour:'Pôr do sol em Oia', look:'Total white, linho e sandália de couro', ritual:'Vinho Assyrtiko olhando a caldeira', palette:['#F7F5EF','#2C5D8F','#D8A86B'], m:[45,80,55] },
+    { id:'reykjavik', city:'Reykjavík', country:'Islândia', region:'europa', lat:64.1466, lon:-21.9426, sign:'REYKJAVÍK', tag:'Aurora, gelo e fogo',
+      vibe:'Reykjavík é a porta de entrada para paisagens de outro planeta: geleiras, gêiseres, campos de lava e auroras boreais dançando no céu de inverno. A cidade é pequena, colorida e criativa, e a vida social acontece dentro de piscinas termais.',
+      moods:['Etérea','Gélida','Criativa'], notes:['Zimbro & menta glacial','Musgo islandês & pedra vulcânica','Fumaça & almíscar mineral'], family:'Aquática',
+      sound:'Post-rock e eletrônica nórdica', hour:'Noite de aurora boreal', look:'Suéter de lã islandesa e parka', ritual:'Banho em lagoa geotérmica sob a neve', palette:['#1B4965','#62B6CB','#E8F1F2'], m:[60,74,92] },
+    { id:'novayork', city:'Nova York', country:'Estados Unidos', region:'americas', lat:40.7128, lon:-74.006, sign:'NEW YORK', tag:'A cidade que nunca para',
+      vibe:'Nova York é ambição em estado puro. Arranha-céus de aço, metrô ruidoso, delicatessens às três da manhã e rooftops com vista para um mar de luzes. Cada esquina é um palco e todo mundo parece estar a caminho de algo grande.',
+      moods:['Ambiciosa','Elétrica','Urbana'], notes:['Maçã verde & pimenta-preta','Couro & café torrado','Concreto mineral & âmbar'], family:'Amadeirada',
+      sound:'Jazz nos clubes do Village e hip-hop do Brooklyn', hour:'Golden hour no High Line', look:'Sobretudo escuro, tênis branco e óculos de acetato', ritual:'Um drink em um speakeasy do Lower East Side', palette:['#2B2F36','#C9A45C','#9AA3AD'], m:[98,86,66] },
+    { id:'losangeles', city:'Los Angeles', country:'Estados Unidos', region:'americas', lat:34.0522, lon:-118.2437, sign:'LOS ANGELES', tag:'Glamour sob o sol da Califórnia',
+      vibe:'Los Angeles é sonho em widescreen. Palmeiras recortadas contra o céu alaranjado, estradas costeiras infinitas e a sensação constante de estar dentro de um filme. Uma cidade de conversíveis, surf ao amanhecer e festas nas colinas.',
+      moods:['Glamourosa','Livre','Solar'], notes:['Toranja rosa & hortelã','Sândalo & figo','Âmbar solar & almíscar'], family:'Cítrica',
+      sound:'West coast rap e synth-pop de estrada', hour:'Pôr do sol em Malibu', look:'Camisa aberta, óculos aviador e jaqueta jeans', ritual:'Dirigir pela Pacific Coast Highway com a capota aberta', palette:['#F4A259','#E07A5F','#3D5A80'], m:[86,74,48] },
+    { id:'havana', city:'Havana', country:'Cuba', region:'americas', lat:23.1136, lon:-82.3666, sign:'HAVANA', tag:'O tempo em câmera lenta',
+      vibe:'Havana parece congelada numa fotografia vintage: carros dos anos 50 desfilando pelo Malecón, fachadas coloniais em tons pastel e música saindo de cada janela. Uma cidade de charutos, rum envelhecido e dança espontânea na calçada.',
+      moods:['Nostálgica','Rítmica','Calorosa'], notes:['Hortelã & limão','Tabaco & rum','Cana-de-açúcar & mogno'], family:'Ambarada',
+      sound:'Son cubano e salsa ao vivo', hour:'Entardecer no Malecón', look:'Guayabera branca e chapéu fedora', ritual:'Um mojito no fim da tarde em La Habana Vieja', palette:['#E8A0A0','#4FA3A5','#E9C46A'], m:[80,62,68] },
+    { id:'mexico', city:'Cidade do México', country:'México', region:'americas', lat:19.4326, lon:-99.1332, lab:'l', sign:'MÉXICO', tag:'Cor, cultura e chili',
+      vibe:'A Cidade do México é imensa e generosa. Murais de Rivera, mercados explodindo de cor, casas modernistas na Roma Norte e uma cena gastronômica que mistura tradição milenar com ousadia. O ar tem cheiro de milho tostado, cacau e flores de jacarandá.',
+      moods:['Vibrante','Artística','Ancestral'], notes:['Lima & pimenta jalapeño','Cacau & flor de jacarandá','Mezcal defumado & baunilha'], family:'Ambarada',
+      sound:'Bolero clássico e cumbia eletrônica', hour:'Tarde de domingo em Coyoacán', look:'Guayabera, chapéu panamá e bota de camurça', ritual:'Mezcal com laranja em um bar da Condesa', palette:['#D9472B','#2E8A7A','#F2C14E'], m:[88,70,76] },
+    { id:'machupicchu', city:'Machu Picchu', country:'Peru', region:'americas', lat:-13.1631, lon:-72.545, lab:'l', sign:'MACHU PICCHU', tag:'Altitude que silencia',
+      vibe:'Machu Picchu surge entre nuvens como um segredo guardado pelos Andes. Terraços de pedra perfeitos, montanhas verdes vertiginosas e um silêncio que pesa mais que o ar rarefeito. É um destino de introspecção — o tipo de lugar que muda a escala das coisas.',
+      moods:['Espiritual','Selvagem','Contemplativa'], notes:['Eucalipto & capim-limão','Pedra molhada & musgo','Palo santo & cedro'], family:'Amadeirada',
+      sound:'Flautas andinas e o vento nas montanhas', hour:'Amanhecer na Porta do Sol', look:'Jaqueta técnica, lã de alpaca e bota de trilha', ritual:'Chá de coca antes de subir a trilha', palette:['#5E7D4E','#A9A39A','#D9CBB0'], m:[55,50,95] },
+    { id:'rio', city:'Rio de Janeiro', country:'Brasil', region:'americas', lat:-22.9068, lon:-43.1729, sign:'RIO', tag:'Mar, montanha e bossa',
+      vibe:'O Rio é corpo e paisagem. Montanhas despencam no mar, a bossa nova parece ter nascido da brisa e a orla é a sala de estar da cidade. Aqui a sofisticação veste chinelo e se encontra no pôr do sol aplaudido no Arpoador.',
+      moods:['Solar','Sensual','Descontraída'], notes:['Maracujá & limão-taiti','Coco & flor de tiaré','Sal & jacarandá'], family:'Aquática',
+      sound:'Bossa nova e samba de roda', hour:'Pôr do sol no Arpoador', look:'Camisa de linho, bermuda e pés na areia', ritual:'Água de coco no Posto 9 depois do mergulho', palette:['#F2A541','#1B7F8C','#F6E3C3'], m:[92,64,50] },
+    { id:'buenosaires', city:'Buenos Aires', country:'Argentina', region:'americas', lat:-34.6037, lon:-58.3816, sign:'BUENOS AIRES', tag:'Paixão em compasso de tango',
+      vibe:'Buenos Aires tem alma europeia e coração latino. Cafés históricos, livrarias em teatros antigos, parrillas fumegantes e milongas que só começam depois da meia-noite. É uma cidade de conversas longas e gestos dramáticos.',
+      moods:['Apaixonada','Boêmia','Elegante'], notes:['Pimenta rosa & bergamota','Malbec & violeta','Couro & fumaça de lenha'], family:'Amadeirada',
+      sound:'Tango de Piazzolla e bandoneón ao vivo', hour:'Meia-noite numa milonga de San Telmo', look:'Colete, camisa branca e sapato bicolor', ritual:'Malbec e bife de chorizo em uma parrilla de bairro', palette:['#6E1F2A','#C8B08A','#2A2A2E'], m:[84,80,78] },
+    { id:'istambul', city:'Istambul', country:'Turquia', region:'oriente', lat:41.0082, lon:28.9784, sign:'ISTANBUL', tag:'Onde dois continentes se encontram',
+      vibe:'Istambul é sobreposição: minaretes contra o céu, o Bósforo dividindo continentes e bazares onde especiarias, tapetes e lâmpadas disputam a sua atenção. O chamado à oração ecoa sobre o vaivém dos barcos — hipnótico, antigo, vivo.',
+      moods:['Mística','Intensa','Opulenta'], notes:['Açafrão & cardamomo','Rosa turca & café','Oud & resinas'], family:'Ambarada',
+      sound:'Ney e percussão sufi ao entardecer', hour:'Crepúsculo sobre o Bósforo', look:'Camisa escura de seda e relógio com pulseira de couro', ritual:'Chá em copo tulipa no Grande Bazar', palette:['#8C2F39','#C99A4B','#1E3A4C'], m:[82,84,92] },
+    { id:'dubai', city:'Dubai', country:'Emirados Árabes', region:'oriente', lat:25.2048, lon:55.2708, sign:'DUBAI', tag:'Luxo que desafia o deserto',
+      vibe:'Dubai é ambição construída sobre a areia. Torres que furam as nuvens, hotéis que parecem esculturas, souks de ouro e especiarias e, a poucos minutos, a vastidão silenciosa das dunas. Um destino de excessos elegantes e noites mornas.',
+      moods:['Opulenta','Futurista','Desértica'], notes:['Açafrão & bergamota','Rosa de Taif & oud','Âmbar & baunilha'], family:'Ambarada',
+      sound:'Deep house árabe e oud eletrônico', hour:'Pôr do sol nas dunas', look:'Alfaiataria clara e relógio dourado', ritual:'Jantar sob as estrelas no deserto', palette:['#C8A15A','#F3E5C7','#2B2D42'], m:[88,97,70] },
+    { id:'marrakech', city:'Marrakech', country:'Marrocos', region:'oriente', lat:31.6295, lon:-7.9811, sign:'MARRAKECH', tag:'Labirinto de cores e aromas',
+      vibe:'Marrakech é um choque sensorial. A praça Jemaa el-Fna ferve de música e fumaça, as vielas da medina escondem riads com fontes e laranjeiras, e cada esquina tem cheiro de cominho, couro e água de rosas. Caótica e encantadora.',
+      moods:['Exótica','Sensorial','Mística'], notes:['Laranja & cominho','Água de rosas & cedro do Atlas','Couro & âmbar'], family:'Ambarada',
+      sound:'Música gnawa ao redor da fogueira', hour:'Fim de tarde em um terraço da medina', look:'Camisa de linho terracota e babouche de couro', ritual:'Chá de menta servido do alto em um riad', palette:['#C2552D','#E9B872','#1F5F75'], m:[86,70,90] },
+    { id:'cairo', city:'Cairo & Gizé', country:'Egito', region:'oriente', lat:29.9792, lon:31.1342, lab:'b', sign:'CAIRO', tag:'Mistério de cinco mil anos',
+      vibe:'O Cairo pulsa às margens do Nilo, com seus minaretes, buzinas e cafés de narguilé — e as pirâmides de Gizé vigiando tudo do deserto. Estar diante delas é sentir o peso do tempo. Poucos lugares são tão grandiosos e tão enigmáticos.',
+      moods:['Ancestral','Grandiosa','Enigmática'], notes:['Papiro & limão','Lótus azul & incenso','Mirra & areia quente'], family:'Amadeirada',
+      sound:'Oud e percussão darbuka', hour:'Nascer do sol em Gizé', look:'Linho bege, lenço leve e óculos escuros', ritual:'Passeio de felucca no Nilo ao entardecer', palette:['#D4A373','#264653','#E9D8A6'], m:[70,72,98] },
+    { id:'capetown', city:'Cidade do Cabo', country:'África do Sul', region:'oriente', lat:-33.9249, lon:18.4241, sign:'CAPE TOWN', tag:'Onde dois oceanos se encontram',
+      vibe:'A Cidade do Cabo é cenário de cinema: a Table Mountain coroada de nuvens, praias de água gelada, vinícolas a meia hora e um centro cheio de cor e design. Natureza bruta e sofisticação urbana na mesma paisagem.',
+      moods:['Selvagem','Criativa','Oceânica'], notes:['Rooibos & laranja','Fynbos & sálvia','Sal marinho & vetiver'], family:'Aquática',
+      sound:'Afro house e jazz sul-africano', hour:'Pôr do sol em Camps Bay', look:'Camisa de linho, jaqueta leve e tênis de couro', ritual:'Pinotage em uma vinícola de Stellenbosch', palette:['#2A6F97','#E9C46A','#5C946E'], m:[78,76,64] },
+    { id:'toquio', city:'Tóquio', country:'Japão', region:'asia', lat:35.6762, lon:139.6503, sign:'TOKYO', tag:'Futuro com alma ancestral',
+      vibe:'Tóquio é precisão e espanto. Neon em Shinjuku, silêncio absoluto em um templo a duas quadras dali, bares de oito lugares e trens que chegam no segundo exato. A cidade recompensa quem presta atenção aos detalhes — e há detalhes em toda parte.',
+      moods:['Futurista','Precisa','Surpreendente'], notes:['Yuzu & gengibre','Chá verde & hinoki','Incenso & almíscar limpo'], family:'Cítrica',
+      sound:'City pop e eletrônica minimalista', hour:'Noite chuvosa em Shibuya', look:'Peças monocromáticas, corte oversized e tênis minimalista', ritual:'Highball de whisky japonês em um bar do Golden Gai', palette:['#111827','#E63946','#E5E7EB'], m:[94,92,80] },
+    { id:'kyoto', city:'Kyoto', country:'Japão', region:'asia', lat:35.0116, lon:135.7681, lab:'b', sign:'KYOTO', tag:'A arte da contemplação',
+      vibe:'Kyoto respira devagar. Corredores de bambu, jardins de pedra varridos todas as manhãs, casas de chá de madeira escura e o tilintar discreto de um sino de templo. Aqui a beleza mora na imperfeição e no que não é dito.',
+      moods:['Zen','Tradicional','Delicada'], notes:['Matcha & yuzu','Bambu & flor de cerejeira','Cedro japonês & musgo'], family:'Amadeirada',
+      sound:'Koto e shakuhachi', hour:'Manhã de neblina em Arashiyama', look:'Linho escuro, peças soltas e sandália de madeira', ritual:'Cerimônia do chá em Gion', palette:['#3F4B3B','#C9A27E','#F2EDE4'], m:[30,90,85] },
+    { id:'seul', city:'Seul', country:'Coreia do Sul', region:'asia', lat:37.5665, lon:126.978, lab:'l', sign:'SEOUL', tag:'Energia que não dorme',
+      vibe:'Seul vive em alta voltagem. Palácios da dinastia Joseon cercados por torres de vidro, ruas de moda em Gangnam e barracas de comida que fumegam a madrugada inteira. Tradição e tendência andam na mesma calçada.',
+      moods:['Moderna','Dinâmica','Ousada'], notes:['Pera asiática & menta','Flor de ameixeira & chá de cevada','Almíscar branco & madeira clara'], family:'Cítrica',
+      sound:'K-indie e R&B coreano', hour:'Madrugada em Hongdae', look:'Alfaiataria oversized e acessórios prateados', ritual:'Churrasco coreano e soju até tarde', palette:['#E0E7FF','#1E293B','#F472B6'], m:[95,78,55] },
+    { id:'hongkong', city:'Hong Kong', country:'China', region:'asia', lat:22.3193, lon:114.1694, sign:'HONG KONG', tag:'Skyline, neon e dim sum',
+      vibe:'Hong Kong é vertical e frenética. Arranha-céus encostados em montanhas verdes, o Star Ferry cruzando o Victoria Harbour e mercados noturnos iluminados em vermelho e dourado. Finanças de manhã, dim sum ao meio-dia, rooftop à noite.',
+      moods:['Vertical','Frenética','Cinematográfica'], notes:['Kumquat & pimenta de Sichuan','Chá oolong & jasmim','Madeira de agar & âmbar'], family:'Ambarada',
+      sound:'Cantopop vintage e trilhas de cinema noir', hour:'Noite no Victoria Peak', look:'Terno slim escuro e camisa sem gravata', ritual:'Dim sum em uma casa de chá tradicional', palette:['#B91C1C','#0F172A','#FBBF24'], m:[96,88,82] },
+    { id:'bali', city:'Bali', country:'Indonésia', region:'asia', lat:-8.3405, lon:115.092, sign:'BALI', tag:'Espiritualidade tropical',
+      vibe:'Bali é verde em camadas: terraços de arroz, selva densa e templos cobertos de musgo onde oferendas de flores aparecem todas as manhãs. Entre surf, yoga e cerimônias com gamelão, a ilha tem um ritmo que dissolve qualquer pressa.',
+      moods:['Espiritual','Tropical','Relaxada'], notes:['Capim-limão & coco','Frangipani & gengibre','Sândalo & patchouli'], family:'Aquática',
+      sound:'Gamelão balinês e deep house ao pôr do sol', hour:'Amanhecer em Ubud', look:'Linho solto, colares de madeira e pés descalços', ritual:'Mergulho em uma piscina suspensa sobre a selva', palette:['#2F6B4F','#E8B04B','#F3E9D2'], m:[50,60,72] },
+    { id:'sydney', city:'Sydney', country:'Austrália', region:'oceania', lat:-33.8688, lon:151.2093, sign:'SYDNEY', tag:'Porto, surf e liberdade',
+      vibe:'Sydney é luz e água. A Opera House abre velas brancas sobre o porto, ferries cruzam a baía e, em Bondi, surfistas e executivos dividem o mesmo mar antes do trabalho. Uma cidade saudável, aberta e irresistivelmente leve.',
+      moods:['Leve','Atlética','Ensolarada'], notes:['Eucalipto & lima','Sal marinho & alga','Madeira flutuante & almíscar'], family:'Aquática',
+      sound:'Indie rock australiano e surf music', hour:'Manhã em Bondi', look:'Camiseta premium, shorts e óculos espelhados', ritual:'Flat white depois do surf', palette:['#0EA5E9','#FDE68A','#F8FAFC'], m:[85,70,40] },
+    { id:'queenstown', city:'Queenstown', country:'Nova Zelândia', region:'oceania', lat:-45.0312, lon:168.6626, lab:'l', sign:'QUEENSTOWN', tag:'Aventura em escala épica',
+      vibe:'Queenstown é cercada por montanhas serrilhadas e um lago azul-gelo. Adrenalina de dia — bungee jump, esqui, jet boat — e lareira com Pinot Noir à noite. Uma paisagem tão grandiosa que parece cenário de lendas.',
+      moods:['Aventureira','Selvagem','Revigorante'], notes:['Pinho & menta','Ar de montanha & lavanda','Musgo & cedro'], family:'Amadeirada',
+      sound:'Folk acústico ao redor da fogueira', hour:'Neve fresca ao amanhecer', look:'Jaqueta de lã, gorro e bota', ritual:'Pinot Noir de Central Otago perto da lareira', palette:['#1E3A5F','#9BC1BC','#F4F1DE'], m:[90,58,66] }
+  ];
+
+  // Regiões: caixa [lonOeste, latNorte, lonLeste, latSul]
+  const REG = [
+    { id:'all', name:'Todos', box:[-180, 80, 180, -58] },
+    { id:'europa', name:'Europa', box:[-26, 67, 32, 33] },
+    { id:'americas', name:'Américas', box:[-125, 50, -35, -42] },
+    { id:'oriente', name:'Oriente Médio & África', box:[-18, 45, 60, -37] },
+    { id:'asia', name:'Ásia', box:[100, 45, 146, -12] },
+    { id:'oceania', name:'Oceania', box:[110, -8, 176, -50] }
+  ];
+
+  /* ---------- Referências ---------- */
+  const mapEl = $('#atlasMap'), gGrat = $('#atlasGrat'), gLand = $('#atlasLand'), gPins = $('#atlasPins');
+  const route = $('#route'), routeGlow = $('#routeGlow'), plane = $('#plane'), planeGlyph = $('#planeGlyph');
+  const tip = $('#atlasTip'), tabsEl = $('#atlasTabs'), ind = $('#tabInd'), rail = $('#atlasRail'), panel = $('#atlasPanel');
+  const pad2 = n => String(n).padStart(2, '0');
+  let region = 'all', current = null, ppu = 1, entered = false, bands = [], flightTween = null, landData = null, detail = null;
+  const vb = { x: 0, y: 0, w: W, h: H };
+
+  /* ---------- Graticule ---------- */
+  const gratLines = [];
+  for (let lon = -150; lon < 180; lon += 30) { const [x] = proj(lon, 0); gratLines.push(mk('line', { x1: x, y1: 0, x2: x, y2: H }, gGrat)); }
+  for (let lat = 60; lat > LB; lat -= 20) { const [, y] = proj(0, lat); gratLines.push(mk('line', { x1: 0, y1: y, x2: W, y2: y, class: lat === 0 ? 'eq' : '' }, gGrat)); }
+
+  /* ---------- Pins ---------- */
+  const LAB = { r: [11, 4, 'start'], l: [-11, 4, 'end'], b: [0, 22, 'middle'], t: [0, -13, 'middle'] };
+  DEST.forEach(d => {
+    [d.x, d.y] = proj(d.lon, d.lat);
+    const g = mk('g', { class: 'pin', transform: `translate(${d.x.toFixed(2)} ${d.y.toFixed(2)})`, tabindex: '0', role: 'button', 'aria-label': `${d.city}, ${d.country} — ver a vibe do destino` }, gPins);
+    const inner = mk('g', { class: 'pin-inner' }, g);
+    mk('circle', { class: 'pin-hit', r: 13 }, inner);
+    mk('circle', { class: 'pin-pulse', r: 5 }, inner);
+    d.ring = mk('circle', { class: 'pin-ring', r: 8 }, inner);
+    d.core = mk('circle', { class: 'pin-core', r: 4.2 }, inner);
+    const [lx, ly, anchor] = LAB[d.lab || 'r'];
+    const t = mk('text', { class: 'pin-label', x: lx, y: ly, 'text-anchor': anchor }, inner);
+    t.textContent = d.city;
+    d.g = g; d.inner = inner;
+    gsap.set([d.core, d.ring], { transformOrigin: '50% 50%' });
+
+    g.addEventListener('click', () => select(d.id, { fromMap: true }));
+    g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(d.id, { fromMap: true }); } });
+    g.addEventListener('pointerenter', () => highlight(d, true));
+    g.addEventListener('pointerleave', () => highlight(d, false));
+    g.addEventListener('focus', () => highlight(d, true));
+    g.addEventListener('blur', () => highlight(d, false));
+  });
+
+  /* ---------- Zoom (viewBox animado) ---------- */
+  function regionVB(id) {
+    const r = REG.find(x => x.id === id);
+    const [x0, y0] = proj(r.box[0], r.box[1]), [x1, y1] = proj(r.box[2], r.box[3]);
+    const pad = id === 'all' ? 0 : .06;
+    let w = (x1 - x0) * (1 + 2 * pad), h = (y1 - y0) * (1 + 2 * pad);
+    const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    const ar = (mapEl.clientWidth || W) / (mapEl.clientHeight || H);
+    if (w / h > ar) h = w / ar; else w = h * ar;
+    let x = cx - w / 2;
+    if (w < W) x = Math.max(0, Math.min(W - w, x));
+    return { x, y: cy - h / 2, w, h };
+  }
+  function applyVB() {
+    svg.setAttribute('viewBox', `${vb.x.toFixed(2)} ${vb.y.toFixed(2)} ${vb.w.toFixed(2)} ${vb.h.toFixed(2)}`);
+    const cw = mapEl.clientWidth || W;
+    ppu = cw / vb.w;
+    // Pins menores em mapas pequenos (celular na visão mundial), tamanho cheio ao aproximar
+    const k = Math.min(1, Math.max(.6, cw / 900 * Math.sqrt(W / vb.w)));
+    const s = (k / ppu).toFixed(4);
+    DEST.forEach(d => d.inner.setAttribute('transform', `scale(${s})`));
+    planeGlyph.setAttribute('transform', `scale(${s})`);
+    route.setAttribute('stroke-width', (1.5 / ppu).toFixed(3));
+    routeGlow.setAttribute('stroke-width', (7 / ppu).toFixed(3));
+    svg.classList.toggle('zoomed', W / vb.w > 1.7);
+    mapEl.classList.toggle('is-zoomed', W / vb.w > 1.2);
+  }
+  function zoomTo(id, instant) {
+    gsap.killTweensOf(vb);
+    const t = regionVB(id);
+    setDetail(id, t, instant ? 0 : 1.3);
+    return gsap.to(vb, { ...t, duration: instant ? 0 : D(1.3), ease: 'power3.inOut', onUpdate: applyVB, onComplete: applyVB });
+  }
+
+  /* ---------- Mapa de pontos (continentes) ---------- */
+  async function buildLand() {
+    try {
+      if (!window.topojson) throw new Error('topojson');
+      const res = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-110m.json');
+      if (!res.ok) throw new Error('fetch');
+      const topo = await res.json();
+      const land = topojson.feature(topo, topo.objects.land);
+      const feats = land.features || [land];
+      // Rasteriza os continentes num canvas oculto e amostra uma grade de pontos
+      const S = 3, cw = Math.ceil(W * S), ch = Math.ceil(H * S);
+      const c = document.createElement('canvas'); c.width = cw; c.height = ch;
+      const ctx = c.getContext('2d'); ctx.scale(S, S); ctx.beginPath();
+      feats.forEach(f => {
+        const g = f.geometry; if (!g) return;
+        const polys = g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
+        polys.forEach(poly => poly.forEach(ring => {
+          ring.forEach(([lon, lat], i) => { const [x, y] = proj(lon, lat); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+          ctx.closePath();
+        }));
+      });
+      ctx.fill('evenodd');
+      const rgba = ctx.getImageData(0, 0, cw, ch).data;
+      const alpha = new Uint8Array(cw * ch);
+      for (let i = 0; i < alpha.length; i++) alpha[i] = rgba[i * 4 + 3];
+      landData = { alpha, cw, ch, S };
+      bands = dotPaths(0, 0, W, H, 6.2, 28).map(d => mk('path', { d }, gLand));
+      if (!RM) {
+        if (!entered) gsap.set(bands, { opacity: 0 });
+        else gsap.from(bands, { opacity: 0, duration: .5, stagger: .03 });
+      }
+      setDetail(region, regionVB(region), 0);
+    } catch (e) {
+      mapEl.classList.add('no-land');
+    }
+  }
+  // Gera os pontos de terra de uma área, agrupados em faixas verticais (para animar em sequência)
+  function dotPaths(x0, y0, x1, y1, step, NB, rf = .2) {
+    const { alpha, cw, ch, S } = landData, r = step * rf, strs = Array(NB).fill('');
+    x0 = Math.max(0, x0); y0 = Math.max(0, y0); x1 = Math.min(W, x1); y1 = Math.min(H, y1);
+    for (let x = (Math.floor(x0 / step) + .5) * step; x < x1; x += step) {
+      const b = Math.min(NB - 1, Math.max(0, Math.floor((x - x0) / (x1 - x0) * NB)));
+      const px = Math.floor(x * S);
+      if (px < 0 || px >= cw) continue;
+      for (let y = (Math.floor(y0 / step) + .5) * step; y < y1; y += step) {
+        const py = Math.floor(y * S);
+        if (py >= 0 && py < ch && alpha[py * cw + px] > 120) strs[b] += `M${(x - r).toFixed(2)} ${y.toFixed(2)}a${r.toFixed(2)} ${r.toFixed(2)} 0 1 0 ${(2 * r).toFixed(2)} 0a${r.toFixed(2)} ${r.toFixed(2)} 0 1 0 ${(-2 * r).toFixed(2)} 0`;
+      }
+    }
+    return strs.filter(Boolean);
+  }
+  // Ao aproximar uma região, troca por uma grade de pontos mais fina (mais "resolução")
+  function setDetail(id, t, dur) {
+    if (!landData) return;
+    const old = detail; detail = null;
+    if (old) gsap.to(old, { opacity: 0, duration: dur ? D(.4) : 0, onComplete: () => old.remove() });
+    const small = mapEl.clientWidth < 700;
+    if (id === 'all' && !small) { gsap.to(gLand, { opacity: 1, duration: dur ? D(.6) : 0, delay: dur ? D(dur * .35) : 0 }); return; }
+    const step = t.w / (small ? 90 : 160);
+    const g = mk('g', { class: 'atlas-land atlas-detail' });
+    gLand.after(g);
+    dotPaths(t.x, t.y, t.x + t.w, t.y + t.h, step, 1, small ? .27 : .2).forEach(d => mk('path', { d }, g));
+    detail = g;
+    gsap.fromTo(g, { opacity: 0 }, { opacity: 1, duration: dur ? D(.7) : 0, delay: dur ? D(dur * .55) : 0 });
+    gsap.to(gLand, { opacity: 0, duration: dur ? D(.5) : 0, delay: dur ? D(dur * .5) : 0 });
+  }
+
+  /* ---------- Abas de região ---------- */
+  REG.forEach(r => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'atlas-tab'; b.dataset.region = r.id;
+    b.setAttribute('role', 'tab'); b.setAttribute('aria-selected', String(r.id === 'all'));
+    const n = r.id === 'all' ? DEST.length : DEST.filter(d => d.region === r.id).length;
+    b.innerHTML = `${r.name}<small>${n}</small>`;
+    b.addEventListener('click', () => setRegion(r.id));
+    tabsEl.appendChild(b);
+  });
+  function moveInd(instant) {
+    const b = tabsEl.querySelector(`[data-region="${region}"]`);
+    gsap.to(ind, { x: b.offsetLeft, width: b.offsetWidth, duration: instant ? 0 : D(.5), ease: 'power3.inOut' });
+    tabsEl.scrollTo({ left: b.offsetLeft - tabsEl.clientWidth / 2 + b.offsetWidth / 2, behavior: RM ? 'auto' : 'smooth' });
+  }
+  function visibleList() { return region === 'all' ? DEST : DEST.filter(d => d.region === region); }
+  function setRegion(id, opts = {}) {
+    region = id;
+    $$('.atlas-tab', tabsEl).forEach(b => { const on = b.dataset.region === id; b.classList.toggle('active', on); b.setAttribute('aria-selected', String(on)); });
+    moveInd(opts.instant);
+    DEST.forEach(d => d.g.classList.toggle('dim', id !== 'all' && d.region !== id));
+    if (!opts.keepRoute) gsap.to([route, routeGlow], { autoAlpha: 0, duration: D(.3) });
+    buildRail();
+    updateIndex();
+    return zoomTo(id, opts.instant);
+  }
+
+  /* ---------- Lista de destinos (chips) ---------- */
+  function buildRail() {
+    rail.innerHTML = '';
+    visibleList().forEach(d => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip' + (current === d ? ' active' : ''); b.dataset.id = d.id;
+      b.innerHTML = `<i></i>${d.city}`;
+      b.addEventListener('click', () => select(d.id));
+      b.addEventListener('pointerenter', () => highlight(d, true));
+      b.addEventListener('pointerleave', () => highlight(d, false));
+      rail.appendChild(b);
+    });
+    if (!RM && entered) gsap.from(rail.children, { y: 14, autoAlpha: 0, stagger: .025, duration: .4, ease: 'power2.out' });
+  }
+  function syncChips(scroll) {
+    $$('.chip', rail).forEach(c => {
+      const on = current && c.dataset.id === current.id;
+      c.classList.toggle('active', on);
+      if (on && scroll) rail.scrollTo({ left: c.offsetLeft - rail.clientWidth / 2 + c.offsetWidth / 2, behavior: RM ? 'auto' : 'smooth' });
+    });
+  }
+
+  /* ---------- Tooltip + destaque ---------- */
+  function highlight(d, on) {
+    gsap.to(d.core, { scale: on ? 1.6 : (d === current ? 1.3 : 1), duration: D(.3), ease: 'power2.out' });
+    if (!on) { gsap.to(tip, { autoAlpha: 0, duration: D(.2) }); return; }
+    const r = d.core.getBoundingClientRect(), m = mapEl.getBoundingClientRect();
+    const x = r.left + r.width / 2 - m.left, y = r.top + r.height / 2 - m.top;
+    tip.querySelector('span').textContent = `${d.country} · ${d.tag}`;
+    tip.querySelector('b').textContent = d.city;
+    tip.classList.toggle('below', y < 80);
+    gsap.set(tip, { left: Math.max(90, Math.min(m.width - 90, x)), top: y });
+    gsap.to(tip, { autoAlpha: 1, duration: D(.25) });
+  }
+
+  /* ---------- Seleção + voo ---------- */
+  function select(id, opts = {}) {
+    const d = DEST.find(x => x.id === id);
+    if (!d || d === current) return;
+    const prev = current;
+    current = d;
+    // No celular, aproxima a região do pin clicado para facilitar a leitura
+    if (opts.fromMap && region === 'all' && mapEl.clientWidth < 700) setRegion(d.region, { keepRoute: true });
+    DEST.forEach(x => x.g.classList.toggle('active', x === d));
+    if (prev) gsap.to(prev.core, { scale: 1, duration: D(.3) });
+    const hadFocus = document.activeElement === d.g;
+    gPins.appendChild(d.g);
+    if (hadFocus) d.g.focus({ preventScroll: true });
+    syncChips(true);
+    if (prev) fly(prev, d); else arrive(d);
+    renderPanel(d);
+    if (opts.fromMap && mapEl.clientWidth < 700) {
+      const top = panel.getBoundingClientRect().top;
+      if (top > innerHeight * .7) gsap.delayedCall(D(.4), () => panel.scrollIntoView({ behavior: RM ? 'auto' : 'smooth', block: 'start' }));
+    }
+  }
+  function fly(a, b) {
+    if (flightTween) flightTween.kill();
+    const dist = Math.hypot(b.x - a.x, b.y - a.y);
+    const cx = (a.x + b.x) / 2, cy = (a.y + b.y) / 2 - Math.min(dist * .35, 130);
+    const path = `M${a.x.toFixed(2)} ${a.y.toFixed(2)} Q${cx.toFixed(2)} ${cy.toFixed(2)} ${b.x.toFixed(2)} ${b.y.toFixed(2)}`;
+    route.setAttribute('d', path); routeGlow.setAttribute('d', path);
+    const len = route.getTotalLength();
+    gsap.killTweensOf([route, routeGlow, plane]);
+    gsap.set([route, routeGlow], { strokeDasharray: len, strokeDashoffset: len, autoAlpha: 1 });
+    gsap.set(plane, { autoAlpha: 1 });
+    const prog = { t: 0 };
+    flightTween = gsap.to(prog, {
+      t: 1, duration: D(gsap.utils.clamp(1.1, 2.4, .9 + dist / 380)), ease: 'power1.inOut',
+      onUpdate() {
+        const L = len * prog.t;
+        const p = route.getPointAtLength(L), p1 = route.getPointAtLength(Math.max(0, L - .6)), p2 = route.getPointAtLength(Math.min(len, L + .6));
+        const ang = Math.atan2(p2.y - p1.y, p2.x - p1.x) * 57.2958;
+        plane.setAttribute('transform', `translate(${p.x.toFixed(2)} ${p.y.toFixed(2)}) rotate(${ang.toFixed(1)})`);
+        const off = len * (1 - prog.t);
+        route.style.strokeDashoffset = off; routeGlow.style.strokeDashoffset = off;
+      },
+      onComplete() {
+        gsap.to(plane, { autoAlpha: 0, duration: D(.3) });
+        arrive(b);
+        gsap.to([route, routeGlow], { autoAlpha: .35, duration: D(1.2), delay: D(.5) });
+      }
+    });
+  }
+  function arrive(d) {
+    gsap.fromTo(d.core, { scale: 2.2 }, { scale: 1.3, duration: D(1.1), ease: 'elastic.out(1, .4)' });
+    if (RM) return;
+    [0, .25].forEach(delay => {
+      const rp = mk('circle', { class: 'pin-ripple', r: 5 }, d.inner);
+      gsap.to(rp, { attr: { r: 44 }, opacity: 0, duration: 1.5, delay, ease: 'power2.out', onComplete: () => rp.remove() });
+    });
+  }
+
+  /* ---------- Painel da vibe ---------- */
+  const A = $$('[data-a]', panel);
+  const el = id => document.getElementById(id);
+  function fmtCoords(d) { return `${Math.abs(d.lat).toFixed(2)}° ${d.lat >= 0 ? 'N' : 'S'} · ${Math.abs(d.lon).toFixed(2)}° ${d.lon >= 0 ? 'L' : 'O'}`; }
+  function updateIndex() {
+    if (!current) return;
+    const list = visibleList(), i = list.indexOf(current);
+    el('pIndex').textContent = `${i < 0 ? '—' : pad2(i + 1)} / ${pad2(list.length)}`;
+  }
+  function fill(d) {
+    panel.style.setProperty('--a1', d.palette[0]); panel.style.setProperty('--a2', d.palette[1]); panel.style.setProperty('--a3', d.palette[2]);
+    el('pTag').textContent = d.tag;
+    el('pCity').textContent = d.city;
+    el('pCountry').textContent = d.country;
+    el('pCoords').textContent = fmtCoords(d);
+    el('pVibe').textContent = d.vibe;
+    el('pMoods').innerHTML = d.moods.map(m => `<span>${m}</span>`).join('');
+    el('pMeters').innerHTML = [['Energia', d.m[0]], ['Sofisticação', d.m[1]], ['Mistério', d.m[2]]]
+      .map(([l, v]) => `<div class="meter"><div class="meter-top"><span>${l}</span><b data-v="${v}">${v}</b></div><div class="meter-track"><div class="meter-fill" data-v="${v}" style="--v:${v / 100}"></div></div></div>`).join('');
+    el('pFamily').textContent = `Família ${d.family}`;
+    el('pNotes').innerHTML = [['Saída', d.notes[0]], ['Coração', d.notes[1]], ['Fundo', d.notes[2]]]
+      .map(([l, v]) => `<div class="note"><small>${l}</small><span>${v}</span></div>`).join('');
+    el('pDetails').innerHTML = [['Trilha sonora', d.sound], ['Hora perfeita', d.hour], ['Estilo', d.look], ['Ritual local', d.ritual]]
+      .map(([l, v]) => `<div><dt>${l}</dt><dd>${v}</dd></div>`).join('');
+    el('pPalette').innerHTML = d.palette.map(c => `<span style="background:${c}" title="${c}"></span>`).join('');
+    el('pSign').textContent = `${d.sign} by VOCÊ`;
+    updateIndex();
+  }
+  let panelTl;
+  function renderPanel(d) {
+    if (panelTl) panelTl.kill();
+    const first = !panel.classList.contains('has-dest');
+    panelTl = gsap.timeline();
+    if (!first) panelTl.to(A, { autoAlpha: 0, y: -12, duration: D(.22), stagger: D(.012), ease: 'power2.in' });
+    panelTl.add(() => { panel.classList.add('has-dest'); fill(d); });
+    panelTl.fromTo('.panel-accent', { scaleX: 0 }, { scaleX: 1, duration: D(.9), ease: 'expo.out' });
+    panelTl.fromTo(A, { autoAlpha: 0, y: 18 }, { autoAlpha: 1, y: 0, duration: D(.55), stagger: D(.05), ease: 'power3.out' }, '<');
+    panelTl.add(() => {
+      scramble(el('pCity'), d.city, .7);
+      $$('.meter-fill', panel).forEach(f => gsap.fromTo(f, { scaleX: 0 }, { scaleX: f.dataset.v / 100, duration: D(1.2), ease: 'expo.out' }));
+      $$('.meter-top b', panel).forEach(b => window.voyageCount ? window.voyageCount(b, +b.dataset.v, 1.2) : null);
+      if (!RM) gsap.from('#pPalette span', { scale: 0, stagger: .08, duration: .5, ease: 'back.out(2.4)' });
+    }, first ? '<.1' : '<');
+  }
+  function step(dir) {
+    const list = visibleList();
+    let i = list.indexOf(current);
+    i = i < 0 ? 0 : (i + dir + list.length) % list.length;
+    select(list[i].id);
+  }
+  el('pPrev').addEventListener('click', () => step(-1));
+  el('pNext').addEventListener('click', () => step(1));
+  $('#atlas').addEventListener('keydown', e => {
+    if (!current || e.target.closest('input, select, .atlas-tabs')) return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
+  });
+
+  function surprise() {
+    const pool = DEST.filter(d => d !== current);
+    const d = pool[(Math.random() * pool.length) | 0];
+    if (region !== 'all' && d.region !== region) { setRegion('all'); gsap.delayedCall(D(1), () => select(d.id)); }
+    else select(d.id);
+  }
+  $$('[data-surprise]').forEach(b => b.addEventListener('click', surprise));
+
+  // Leva o destino para a personalização e para o formulário
+  el('pUse').addEventListener('click', () => {
+    if (!current) return;
+    const d = current;
+    const citySel = $('#city');
+    if (![...citySel.options].some(o => o.value === d.sign)) citySel.add(new Option(d.sign));
+    citySel.value = d.sign;
+    $('#notes').value = d.family;
+    citySel.dispatchEvent(new Event('change'));
+    const dest = $('#destination');
+    let opt = [...dest.options].find(o => [d.sign, d.city].some(n => o.text.toLowerCase() === n.toLowerCase()));
+    if (!opt) { opt = new Option(d.city); dest.add(opt, dest.options[dest.options.length - 1]); }
+    opt.dataset.sign = d.sign;
+    dest.value = opt.value;
+    if (window.voyageLiveSign) window.voyageLiveSign();
+    $('#oferta').scrollIntoView({ behavior: RM ? 'auto' : 'smooth' });
+    if (!RM) gsap.fromTo('.formcard', { outline: '2px solid rgba(176,138,80,0)' }, { outline: '2px solid rgba(176,138,80,1)', duration: .4, delay: .9, yoyo: true, repeat: 3, clearProps: 'outline' });
+  });
+
+  /* ---------- Holofote seguindo o mouse no mapa ---------- */
+  mapEl.addEventListener('pointermove', e => {
+    const r = mapEl.getBoundingClientRect();
+    mapEl.style.setProperty('--sx', ((e.clientX - r.left) / r.width * 100) + '%');
+    mapEl.style.setProperty('--sy', ((e.clientY - r.top) / r.height * 100) + '%');
+  });
+
+  /* ---------- Entrada da seção no scroll ---------- */
+  const pinParts = [...DEST].sort((a, b) => a.x - b.x);
+  if (!RM) {
+    gsap.set(pinParts.flatMap(d => [d.core, d.ring]), { scale: 0 });
+    gsap.set(gratLines, { opacity: 0 });
+    gsap.set('.atlas-bar, .atlas-map, .atlas-panel', { autoAlpha: 0, y: 30 });
+  }
+  function intro() {
+    entered = true;
+    $$('.atlas-stats b').forEach(b => window.voyageCount && window.voyageCount(b, +b.dataset.count, 1.6));
+    if (RM) { svg.classList.add('live'); return; }
+    const tl = gsap.timeline({ onComplete: () => svg.classList.add('live') });
+    tl.to('.atlas-bar, .atlas-map', { autoAlpha: 1, y: 0, duration: .9, stagger: .12, ease: 'power3.out' })
+      .to(gratLines, { opacity: 1, duration: .8, stagger: .025 }, .2)
+      .to(bands, { opacity: 1, duration: .6, stagger: .035, ease: 'power1.out' }, .3)
+      .to(pinParts.flatMap(d => [d.core, d.ring]), { scale: 1, duration: .55, stagger: .018, ease: 'back.out(3)' }, .8)
+      .from(rail.children, { y: 14, autoAlpha: 0, stagger: .02, duration: .4 }, .9)
+      .to('.atlas-panel', { autoAlpha: 1, y: 0, duration: .9, ease: 'power3.out' }, 1);
+    gsap.to('.panel-stamp', { rotation: 360, duration: 26, ease: 'none', repeat: -1 });
+  }
+
+  /* ---------- Inicialização ---------- */
+  setRegion('all', { instant: true });
+  applyVB();
+  buildLand();
+  if (window.ScrollTrigger) ScrollTrigger.create({ trigger: mapEl, start: 'top 85%', once: true, onEnter: intro });
+  else intro();
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(() => { zoomTo(region, true); moveInd(true); }).observe(mapEl);
+  }
+})();
 </script>
 </body></html>
